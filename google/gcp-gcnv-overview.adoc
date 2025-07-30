@@ -1,0 +1,51 @@
+---
+sidebar: sidebar
+permalink: google/gcp-gcnv-overview.html
+keywords: 4918, tr4918, overview, introduction, scope, audience, abbreviation, definition
+summary: Security, particularly in the cloud where infrastructure is outside of the control of storage administrators, is paramount to trusting your data to service offerings provided by cloud providers. This document is an overview of the security offerings that Google Cloud NetApp Volumes provides in Google Cloud.
+---
+
+= TR-4918: Security overview - Google Cloud NetApp Volumes in Google Cloud
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-05-09 14:20:40.881406
+//
+
+Oliver Krause, Justin Parisi, NetApp
+
+[.lead]
+Security, particularly in the cloud where infrastructure is outside of the control of storage administrators, is paramount to trusting your data to service offerings provided by cloud providers. This document is an overview of the security offerings that https://cloud.netapp.com/cloud-volumes-service-for-gcp[Google Cloud NetApp Volumes provides in Google Cloud^].
+
+== Intended audience
+
+This document's intended audience includes, but is not limited to, the following roles:
+
+* Cloud providers
+* Storage administrators
+* Storage architects
+* Field resources
+* Business decision makers
+
+If you have questions about the content of this technical report, see the section link:../vmware/gcp-gcnv-additional-info.html#contact-us["Contact us."]
+
+|===
+|Abbreviation |Definition
+
+|NetApp Volumes-SW
+|Google Cloud NetApp Volumes, Service Type NetApp Volumes
+|NetApp Volumes-Performance
+|Cloud Volume Service, Service Type NetApp Volumes-Performance
+|PSA
+|
+|===
+
+
+
+// NetApp Solutions restructuring (jul 2025) - renamed from ehc/ncvs-gc-overview.adoc

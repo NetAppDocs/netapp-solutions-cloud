@@ -1,0 +1,77 @@
+indexpage:
+  title: NetApp Hybrid Multicloud with Red Hat OpenShift Container workloads
+  lead: "NetApp Hybrid Multicloud solutions with  Red Hat OpenShift container platform are a set of strategic and technology capabilities that demonstrate the ease of orchestrating data protection and migration capabilities for stateful container workloads on-premises and in the public cloud." 
+  summary: "NetApp Hybrid Multicloud solutions with  Red Hat OpenShift container platform are a set of strategic and technology capabilities that demonstrate the ease of orchestrating data protection and migration capabilities for stateful container workloads on-premises and in the public cloud." 
+  tiles:
+    - title: "Getting Started"
+      links:
+        - title: "Overview"
+          url: ../openshift/os-solutions-overview.html
+        - title: "Value Propositions"
+          url: ../openshift/os-solutions-value-prop.html
+        - title: "Validated Solutions"
+          url: ../openshift/os-solutions-validated.html
+        - title: "Validated Versions"
+          url: ../openshift/os-solutions-versions.html
+        - title: "Supported Storage Options"
+          url: ../openshift/os-solutions-storage-options.html
+#
+    - title: "Resources"
+      links:
+        - title: "Additional Documentation"
+          url: ../openshift/os-solutions-resources.html
+        - title: "Videos and Demos"
+          url: ../videos.html#rhhc
+        - title: "Blogs"
+          url: ../blogs.html#rhhc
+#
+    - title: "On-Premises Workloads"
+      links:
+        - title: "On-Premises Solution"
+          url: ../openshift/os-op-solution.html
+        - title: "Configure the Environment"
+          url: ../openshift/os-op-setup.html
+        - title: "Data Protection using ACC"
+          url: ../openshift/os-op-data-protection.html
+        - title: "Data Migration using ACC"
+          url: ../openshift/os-op-data-migration.html
+#
+    - title: "Hybrid Cloud Workloads (Self-Managed Components)"
+      links:
+        - title: "Hybrid Cloud Solution with Self-Managed Components"
+          url: ../openshift/os-sm-solution.html
+        - title: "Configure the Environment"
+          url: ../openshift/os-sm-setup.html
+        - title: "Data Protection using ACC"
+          url: ../openshift/os-sm-data-protection.html
+        - title: "Data Migration using ACC"
+          url: ../openshift/os-sm-data-migration.html
+#
+    - title: "Hybrid Cloud Workloads (Provider-Managed Components)"
+      links:
+        - title: "Hybrid Cloud solution with Provider-Managed Components"
+          url: ../openshift/os-pm-solution.html
+        - title: "Configure the Environment"
+          url: ../openshift/os-pm-setup.html
+        - title: "Data Protection using ACS"
+          url: ../openshift/os-pm-aws-dp.html
+        - title: "Data Migration using BlueXP"
+          url: ../openshift/os-pm-aws-data-migration.html
+        - title: "Additional Solutions"
+          url: ../openshift/os-pm-rosa-additional.html
+
+#
+    - title: "Data Protection of Container Apps Using Third party tools"
+      links:
+        - title: "Overview"
+          url: ../openshift/os-dp-velero-solution.html
+        - title: "OADP installation"
+          url: ../openshift/os-dp-velero-installation.html
+        - title: "Backup of Container Apps using Velero"
+          url: ../openshift/os-dp-velero-backup.html
+        - title: "Restore from backup using Velero"
+          url: ../openshift/os-dp-velero-restore.html
+        - title: "Migrate Apps" 
+          url: ../openshift/os-dp-velero-migrate.html
+        - title: "Delete backups and restores" 
+          url: ../openshift/os-dp-velero-delete.html
