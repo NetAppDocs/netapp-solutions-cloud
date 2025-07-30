@@ -1,0 +1,46 @@
+---
+sidebar: sidebar
+permalink: vmware/vmw-azure-avs-solutions.html
+keywords: NetApp Solutions, microsoft azure, avs, vmware managed cloud, enterprise, hybrid, cloud, migrate, migration, disaster recovery, dr
+summary:
+---
+
+= NetApp Solutions for Azure VMware Solution (AVS)
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+Learn more about the solutions that NetApp brings to Azure.
+
+VMware defines the cloud workloads into one of three categories:
+
+* Protect (including both Disaster Recovery and Backup / Restore)
+* Migrate
+* Extend
+
+Browse the available solutions in the following sections.
+
+[role="tabbed-block"]
+====
+.Protect
+--
+* link:vmw-azure-avs-dr-jetstream.html[Disaster Recovery with ANF and JetStream (supplemental NFS datastore)]
+* link:vmw-azure-avs-guest-storage-dr.html[Disaster Recovery with ANF and CVO (guest connected storage)]
+* link:vmw-azure-avs-dro.html[Disaster Recovery (DRO) with ANF and AVS]
+* link:vmw-azure-anf-avs-ds-dr-veeam.html[Using Veeam Replication and Azure NetApp Files datastore for disaster recovery to Azure VMware Solution]
+--
+.Migrate
+--
+* link:vmw-azure-avs-migrate-hcx.html[Migrate Workloads to Azure NetApp Files datastore using VMware HCX]
+--
+.Extend
+--
+COMING SOON!!
+--
+====
+
+
+// NetApp Solutions restructuring (jul 2025) - renamed from ehc/azure-solutions.adoc

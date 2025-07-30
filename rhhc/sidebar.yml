@@ -1,0 +1,97 @@
+section: rhhc
+title: "NetApp Hybrid Multicloud with Red Hat OpenShift"
+url: /rhhc/index.html
+entries:
+  - title: "Overview"
+    pdf-filename: "Red Hat Openshift for Hybrid Multi-cloud"
+    entries:
+      - title: "Overview"
+        url: /openshift/os-solutions-overview.html
+      - title: "Value Propositions"
+        url: /openshift/os-solutions-value-prop.html
+      - title: "Validated Solutions"
+        url: /openshift/os-solutions-validated.html
+      - title: "Validated Versions"
+        url: /openshift/os-solutions-versions.html
+      - title: "Supported Storage Options"
+        url: /openshift/os-solutions-storage-options.html  
+      - title: "Additional Resources"
+        url: /openshift/os-solutions-resources.html
+#
+  - title: "On-Premises"
+    pdf-filename: "Red Hat Openshift for On-premises"
+    entries:
+      - title: "Overview"
+        url: /openshift/os-solutions-overview.html
+      - title: "Solution Overview"
+        url: /openshift/os-op-solution.html
+      - title: "Configure Red Hat OpenShift Container Workloads on VMware"
+        url: /openshift/os-op-setup.html
+      - title: "Protect Container Workloads on VMware"
+        url: /openshift/os-op-data-protection.html
+      - title: "Migrate Container Workloads on VMware"
+        url: /openshift/os-op-data-migration.html
+#        
+  - title: "Hybrid Cloud with Self-Managed Components (On-premises/AWS/GCP/Azure)"
+    pdf-filename: "Hybrid Cloud with Red Hat OpenShift Self-Managed Components (On-premises/AWS/GCP/Azure)"
+    entries:
+      - title: "Overview"
+        url: /openshift/os-solutions-overview.html
+      - title: "Solution Overview"
+        url: /openshift/os-sm-solution.html
+      - title: "Configure Red Hat OpenShift Container Workloads on AWS"
+        url: /openshift/os-sm-setup.html
+      - title: "Configure Red Hat OpenShift Container Workloads on GCP"
+        url: /openshift/os-sm-gcp-setup.html
+      - title: "Configure Red Hat OpenShift Container Workloads on Azure"
+        url: /openshift/os-sm-azure-setup.html
+      - title: "Protect Container Workloads on AWS/GCP/Azure"
+        url: /openshift/os-sm-data-protection.html
+      - title: "Migrate Container Workloads to AWS/GCP/Azure"
+        url: /openshift/os-sm-data-migration.html
+ #         
+  - title: "Hybrid Cloud with Provider-Managed Components"
+    pdf-filename: "Hybrid Cloud with Red Hat OpenShift Provider-Managed Components"
+    entries:
+      - title: "Overview"
+        url: /openshift/os-solutions-overview.html
+      - title: "Solution Overview"
+        url: /openshift/os-pm-solution.html
+      - title: "Configure Red Hat OpenShift Container Workloads on AWS"
+        url: /openshift/os-pm-setup.html
+      - title: "Configure Red Hat OpenShift Dedicated on Google Cloud"
+        url: /openshift/os-pm-gcnv-setup.html
+      - title: "Protect Container Workloads on AWS"
+        url: /openshift/os-pm-aws-dp.html
+      - title: "Migrate Container Workloads on AWS"
+        url: /openshift/os-pm-aws-data-migration.html
+      - title: "Additional ROSA Solutions for Containers and Virtualization"
+        url: /openshift/os-pm-rosa-additional.html
+#
+  - title: "Data Protection of Container Apps Using Trident Protect"
+    pdf-filename: "Data Protection of Container Apps Using Trident Protect"
+    entries:
+      - title: "Overview"
+        url: /openshift/os-dp-tp-solution.html
+#
+  - title: "Data Protection of VMs Using Trident Protect"
+    pdf-filename: "Data Protection of VMs Using Trident Protect"
+    entries:
+      - title: "Overview"
+        url: /openshift/osv-vm-dp-using-tp.html
+#
+  - title: "Data Protection of Container Apps Using Third Party Tools"
+    pdf-filename: "Data Protection of Container Apps Using Third Party Tools"
+    entries:
+      - title: "Overview"
+        url: /openshift/os-dp-velero-solution.html
+      - title: "OADP installation"
+        url: /openshift/os-dp-velero-installation.html
+      - title: "Backup of Container Apps using Velero"
+        url: /openshift/os-dp-velero-backup.html
+      - title: "Migrate Apps" 
+        url: /openshift/os-dp-velero-migrate.html
+      - title: "Restore from backup using Velero"
+        url: /openshift/os-dp-velero-restore.html
+      - title: "Delete backups and restores" 
+        url: /openshift/os-dp-velero-delete.html
