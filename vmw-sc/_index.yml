@@ -14,20 +14,3 @@ indexpage:
         - title: "VMware Sovereign Cloud Solution"
           url: https://www.vmware.com/solutions/cloud-infrastructure/sovereign-cloud
 #
-    - title: "VMware Sovereign Cloud with NetApp: Use Cases"
-      links:
-        - title: "Overview"
-          url: /sc-overview.html
-        - title: "StorageGRID as an Object Store Extension"
-          url: /sc-use-cases.html#storageGRID
-#        - title: "Cloud Data Sense for Data Classification"
-#          url: 
-#        - title: "ONTAP as an Primary Data Store for Workload Domains"
-#          url: 
-#        - title: "ONTAP for File Services"
-#          url:
-#        - title: "ONTAP for Data Protection as a Service"
-#          url:
-#        - title: "Disaster Recovery as a Service"
-#          url:
-#
