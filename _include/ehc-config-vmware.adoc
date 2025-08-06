@@ -21,11 +21,11 @@ The setup process can be broken down into the following steps:
 * Connect VMware Cloud to FSx ONTAP
 
 // tag::ehc-aws[]
-View the detailed link:aws-setup.html[configuration steps for VMC].
+View the detailed link:../vmware/vmw-aws-vmc-setup.html[configuration steps for VMC].
 // end::ehc-aws[]
 
 // tag::aws[]
-View the detailed link:aws-setup.html[configuration steps for VMC].
+View the detailed link:../vmware/vmw-aws-vmc-setup.html[configuration steps for VMC].
 // end::aws[]
 // end::aws-config[]
 --
