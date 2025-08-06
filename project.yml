@@ -1,5 +1,5 @@
 settings:
-  name: "NetApp Public and Hybrid Cloud solutions"
+  name: "NetApp public and hybrid cloud solutions"
   internal:
     pdf_enabled: true
     lipi_enabled: true
@@ -13,12 +13,12 @@ settings:
     zip-filename: netapp-solutions-cloud.zip
 
 product-family:
-  name: NetApp Solutions
+  name: NetApp solutions
   repo: netapp-solutions-family
 
 sidebar:
   entries:
-    - title: "Public and Hybrid Cloud solutions"
+    - title: "Public and hybrid cloud solutions"
       url: /index.html
     - section: ehc
     - section: vmw-sc
