@@ -15,11 +15,8 @@ keywords: netapp, solutions, videos, demos
 [.lead]
 Overview of the videos and demos highlighting specific features of many of NetApp's solutions.
 
+== Enterprise Applications and Databases
 
-[[db]]
-.Enterprise Applications and Databases
-[%collapsible%open]
-====
 [underline]#*Videos for open source databases*#
 
 video::c381b887-8c8b-4d7d-8b0f-b0c0010c5c04[panopto, title="PostgreSQL automated deployment, HA/DR replication setup, failover, resync", width=360]
@@ -61,12 +58,9 @@ video::VcQMJIRzhoY[youtube, title="Automated Oracle 19c RAC Deployment on FlexPo
 *Case Study*
 
 * link:https://customers.netapp.com/en/sap-azure-netapp-files-case-study[SAP on Azure NetApp Files^]
-====
 
-[[hmc]]
-.Hybrid Multicloud (HMC)
-[%collapsible%open]
-====
+== Hybrid Multicloud (HMC)
+
 [underline]#*Videos for AWS/VMC*#
 
 video::0d03e040-634f-4086-8cb5-b01200fb8515[panopto, title="Windows Guest Connected Storage with FSx ONTAP using iSCSI", width=360]
@@ -94,12 +88,8 @@ video::b7ffa5ad-5559-4e56-a166-b01200f025bc[panopto, title="Cold Migration Demon
 video::986bb505-6f3d-4a5a-b016-b01200f03f18[panopto, title="vMotion Demonstration with VMware HCX for AVS and ANF", width=360]
  
 video::255640f5-4dff-438c-8d50-b01200f017d1[panopto, title="Bulk Migration Demonstration with VMware HCX for AVS and ANF", width=360]
-====
 
-[[rhhc]]
-.Hybrid MultiCloud with Red Hat OpenShift 
-[%collapsible%open]
-====
+== Hybrid MultiCloud with Red Hat OpenShift
 
 video::36ecf505-5d1d-4e99-a6f8-b11c00341793[panopto, title="Snapshot/Restore for Applications on Red Hat OpenShift Service on AWS (ROSA)clusters with Amazon FSx ONTAP storage",width=360]
 
@@ -107,13 +97,8 @@ video::621ae20d-7567-4bbf-809d-b01200fa7a68[panopto, title="Integration of FSx O
 
 video::e9a07d79-42a1-4480-86be-b01200fa62f5[panopto, title="Failover and Fail-back of apps on ROSA with FSx ONTAP", width=360]
 
-====
+== Solution Automation
 
-
-[[automation]]
-.Solution Automation
-[%collapsible%open]
-====
 video::VcQMJIRzhoY[youtube,, title="Automated Oracle 19c RAC Deployment on FlexPod with Ansible", width=360]
-====
+
 
