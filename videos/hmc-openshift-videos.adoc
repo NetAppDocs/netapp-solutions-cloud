@@ -15,8 +15,6 @@ keywords: hybrid cloud, rosa, fsx ontap, azure vmware, netapp hci, videos, demos
 .lead]
 Explore NetApp's comprehensive video library featuring hybrid multicloud solutions for Red Hat OpenShift with NetApp. This collection includes demos on snapshots and restore for OpenShift on AWS (ROSA) with FSx ONTAP, integration with Trident, failover and fail-back for apps, and automated Oracle RAC deployment on FlexPod with Ansible.
 
-
-
 == Snapshots and restore
 
 video::36ecf505-5d1d-4e99-a6f8-b11c00341793[panopto, title="Snapshot/Restore for Applications on Red Hat OpenShift Service on AWS (ROSA)clusters with Amazon FSx ONTAP storage",width=360]

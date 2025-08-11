@@ -4,7 +4,7 @@ permalink: videos/hmc-azure-videos.html
 summary: Videos and demos showcasing hybrid cloud AVS solutions with NetApp
 keywords: hybrid cloud, rosa, fsx ontap, azure vmware, netapp hci, videos, demos
 ---
-= Watch videos on Azure VMware cloud solutions with NetApp
+= Watch videos on hybrid multicloud solutions for Azure VMware cloud with NetApp
 :hardbreaks:
 :nofooter:
 :icons: font
