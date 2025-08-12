@@ -18,13 +18,13 @@ AWS supports NetApp storage in the following configurations:
 * FSx ONTAP as a supplemental NFS datastore
 
 // tag::ehc-aws[]
-View the detailed link:aws-guest.html[guest connect storage options for VMC].
-View the detailed link:aws-native-nfs-datastore-option.html[supplemental NFS datastore options for VMC].
+View the detailed link:../vmware/vmw-aws-vmc-guest-storage.html[guest connect storage options for VMC].
+View the detailed link:../vmware/vmw-aws-vmc-nfs-ds-config.html[supplemental NFS datastore options for VMC].
 // end::ehc-aws[]
 
 // tag::aws[]
-View the detailed link:aws-guest.html[guest connect storage options for VMC].
-View the detailed link:aws-native-nfs-datastore-option.html[supplemental NFS datastore options for VMC].
+View the detailed link:../vmware/vmw-aws-vmc-guest-storage.html[guest connect storage options for VMC].
+View the detailed link:../vmware/vmw-aws-vmc-nfs-ds-config.html[supplemental NFS datastore options for VMC].
 // end::aws[]
 // end::aws-datastore[]
 --
@@ -43,13 +43,13 @@ Azure supports NetApp storage in the following configurations:
 * Azure NetApp Files (ANF) as a supplemental NFS datastore
 
 // tag::ehc-azure[]
-View the detailed link:azure-guest.html[guest connect storage options for AVS].
-View the detailed link:azure-native-nfs-datastore-option.html[supplemental NFS datastore options for AVS].
+View the detailed link:../vmware/vmw-azure-avs-guest-storage.html[guest connect storage options for AVS].
+View the detailed link:../vmware/vmw-azure-avs-nfs-ds-config.html[supplemental NFS datastore options for AVS].
 // end::ehc-azure[]
 
 // tag::azure[]
-View the detailed link:azure-guest.html[guest connect storage options for AVS].
-View the detailed link:azure-native-nfs-datastore-option.html[supplemental NFS datastore options for AVS].
+View the detailed link:../vmware/vmw-azure-avs-guest-storage.html[guest connect storage options for AVS].
+View the detailed link:../vmware/vmw-azure-avs-nfs-ds-config.html[supplemental NFS datastore options for AVS].
 
 // end::azure[]
 // end::azure-datastore[]
@@ -69,14 +69,14 @@ Google Cloud supports NetApp storage in the following configurations:
 * Google Cloud NetApp Volumes (NetApp Volumes) as a supplemental NFS datastore
 
 // tag::ehc-gcp[]
-View the detailed link:gcp-guest.html[guest connect storage options for GCVE].
-View the detailed link:gcp-ncvs-datastore.html[supplemental NFS datastore options for GCVE].
+View the detailed link:../vmware/vmw-gcp-gcve-guest-storage.html[guest connect storage options for GCVE].
+View the detailed link:../vmware/vmw-gcp-gcve-nfs-ds-overview.html[supplemental NFS datastore options for GCVE].
 
 // end::ehc-gcp[]
 
 // tag::gcp[]
-View the detailed link:gcp-guest.html[guest connect storage options for GCVE].
-View the detailed link:gcp-ncvs-datastore.html[supplemental NFS datastore options for GCVE].
+View the detailed link:../vmware/vmw-gcp-gcve-guest-storage.html[guest connect storage options for GCVE].
+View the detailed link:../vmware/vmw-gcp-gcve-nfs-ds-overview.html[supplemental NFS datastore options for GCVE].
 // end::gcp[]
 
 Read more about link:https://www.netapp.com/blog/cloud-volumes-service-google-cloud-vmware-engine/[Google Cloud NetApp Volumes datastore support for Google Cloud VMware Engine (NetApp blog)^] or link:https://cloud.google.com/blog/products/compute/how-to-use-netapp-cvs-as-datastores-with-vmware-engine[How to use Google Cloud NetApp Volumes as datastores for Google Cloud VMware Engine (Google blog)^]
