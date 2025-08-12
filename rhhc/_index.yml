@@ -15,10 +15,6 @@ indexpage:
           url: ../openshift/os-solutions-versions.html
         - title: "Supported storage options"
           url: ../openshift/os-solutions-storage-options.html
-        - title: "Videos and demos"
-          url: ../videos/hmc-openshift-videos.html
-        - title: "Blogs"
-          url: ../blogs.adoc#netapp-hybrid-multicloud-with-red-hat-openshift-container-workloads
     - title: "On-premises workloads"
       links:
         - title: "On-premises solution"
