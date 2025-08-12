@@ -13,12 +13,37 @@ indexpage:
         - title: "Videos and demos"
           url: /videos/index.html
 #
-    - title: "Cloud and hybrid cloud solutions"
+
+#
+    - title: "NetApp hybrid multicloud with VMware"
       links:
-        - title: "NetApp hybridbrid multicloud with VMware"
-          url: ehc/index.html
-        - title: "NetApp hybrid multicloud with Red Hat"
-          url: rhhc/index.html
+        - title: "VMware for public cloud"
+          url: /vmware/vmw-hybrid-overview.html
+        - title: "VMware hybrid cloud use cases"
+          url: /vmware/vmw-hybrid-use-cases.html
+        - title: "NetApp for AWS/VMC"
+          url: /vmware/vmw-aws-vmc-overview.html
+        - title: "NetApp for AWS/EVS"
+          url: /vmware/evs-mount-fsxn-intro.html
+        - title: "NetApp for Azure/AVS"
+          url: /vmware/vmw-azure-avs-overview.html
+        - title: "NetApp for GCP/GCVE"
+          url: /vmware/vmw-gcp-gcve-overview.html
+        - title: "BlueXP disaster recovery for VMware"
+          url: /vmware/vmw-hybrid-dr-overview.html
+
+    - title: "NetApp hybrid multicloud with OpenShift"
+      links:
+        - title: "On-premises"
+          url: /openshift/os-op-solution.html
+        - title: "Hybrid cloud with self-managed components"
+          url: /openshift/os-sm-solution.html
+        - title: "Hybrid cloud with provider-managed components"
+          url: /openshift/os-pm-solution.html
+        - title: "Protect data using Trident Protect"
+          url: /openshift/os-dp-tp-solution.html
+        - title: "Protect container apps using third-party tools"
+          url: /openshift/os-dp-velero-solution.html
 #
     - title: "VMware Sovereign Cloud solution"
       links:

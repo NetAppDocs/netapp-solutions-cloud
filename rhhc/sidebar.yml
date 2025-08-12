@@ -2,10 +2,10 @@ section: rhhc
 title: "NetApp hybrid multicloud with Red Hat OpenShift"
 url: /rhhc/index.html
 entries:
-  - title: "Overview"
+  - title: "Get started"
     pdf-filename: "Red Hat Openshift for hybrid multicloud"
     entries:
-      - title: "Overview"
+      - title: "Solution overview"
         url: /openshift/os-solutions-overview.html
       - title: "Value propositions"
         url: /openshift/os-solutions-value-prop.html
@@ -18,34 +18,30 @@ entries:
       - title: "Additional resources"
         url: /openshift/os-solutions-resources.html
 #
-  - title: "On-premises"
+  - title: "Openshift for on-premises"
     pdf-filename: "Red Hat Openshift for on-premises"
     entries:
-      - title: "Overview"
-        url: /openshift/os-solutions-overview.html
       - title: "Solution overview"
         url: /openshift/os-op-solution.html
-      - title: "Configure Red Hat OpenShift container workloads on VMware"
+      - title: "Configure OpenShift container workloads on VMware"
         url: /openshift/os-op-setup.html
       - title: "Protect container workloads on VMware"
         url: /openshift/os-op-data-protection.html
       - title: "Migrate container workloads on VMware"
         url: /openshift/os-op-data-migration.html
 #        
-  - title: "Hybrid cloud with self-managed components (On-premises/AWS/GCP/Azure)"
+  - title: "Hybrid cloud with self-managed components"
     pdf-filename: "Hybrid Cloud with Red Hat OpenShift Self-Managed Components (On-premises/AWS/GCP/Azure)"
     entries:
-      - title: "Overview"
-        url: /openshift/os-solutions-overview.html
-      - title: "Solution Overview"
+      - title: "Solution overview"
         url: /openshift/os-sm-solution.html
-      - title: "Configure Red Hat OpenShift Container Workloads on AWS"
+      - title: "Configure OpenShift container workloads on AWS"
         url: /openshift/os-sm-setup.html
-      - title: "Configure Red Hat OpenShift Container Workloads on GCP"
+      - title: "Configure OpenShift container workloads on GCP"
         url: /openshift/os-sm-gcp-setup.html
-      - title: "Configure Red Hat OpenShift Container Workloads on Azure"
+      - title: "Configure OpenShift container workloads on Azure"
         url: /openshift/os-sm-azure-setup.html
-      - title: "Protect Container Workloads on AWS/GCP/Azure"
+      - title: "Protect container workloads on AWS/GCP/Azure"
         url: /openshift/os-sm-data-protection.html
       - title: "Migrate container workloads to AWS/GCP/Azure"
         url: /openshift/os-sm-data-migration.html
@@ -53,13 +49,11 @@ entries:
   - title: "Hybrid cloud with provider-managed components"
     pdf-filename: "Hybrid Cloud with Red Hat OpenShift Provider-Managed Components"
     entries:
-      - title: "Overview"
-        url: /openshift/os-solutions-overview.html
       - title: "Solution overview"
         url: /openshift/os-pm-solution.html
-      - title: "Configure Red Hat OpenShift container workloads on AWS"
+      - title: "Configure OpenShift container workloads on AWS"
         url: /openshift/os-pm-setup.html
-      - title: "Configure Red Hat OpenShift Dedicated on Google Cloud"
+      - title: "Configure OpenShift Dedicated on Google Cloud"
         url: /openshift/os-pm-gcnv-setup.html
       - title: "Protect container workloads on AWS"
         url: /openshift/os-pm-aws-dp.html
@@ -79,7 +73,7 @@ entries:
   - title: "Protect container apps using third-party tools"
     pdf-filename: "Data Protection of Container Apps Using Third Party Tools"
     entries:
-      - title: "Overview"
+      - title: "Solution overview"
         url: /openshift/os-dp-velero-solution.html
       - title: "Install OADP"
         url: /openshift/os-dp-velero-installation.html
