@@ -16,6 +16,10 @@ indexpage:
           url: hmc-azure-videos.html#supplemental-datastores
         - title: "Disaster recovery"
           url: hmc-azure-videos.html#disaster-recovery
+        - title: "Migration workflows (HCX)"
+          url: hmc-azure-videos.html#migration-workflows-hcx
+    - title: "OpenShift hybrid multicloud videos"
+      links:
         - title: "Snapshots and restore"
           url: hmc-openshift-videos.html#snapshots-and-restore
         - title: "Storage integration"
