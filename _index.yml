@@ -28,9 +28,9 @@ indexpage:
           url: https://docs.netapp.com/us-en/netapp-solutions-virtualization/vmware/vmw-sovereign-cloud.html
         - title: "NetApp integrations with Sovereign Cloud"
           url: https://docs.netapp.com/us-en/netapp-solutions-virtualization/vmware/vmw-sovereign-cloud-use-cases.html
-        - title: "Solution overview for Sovereign Cloud overview"
+        - title: "Solution overview for Sovereign Cloud"
           url: https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/docs/vmw-sovereign-cloud-solution-brief-customer.pdf
-        - title: "What is Sovereign Cloud?"
+        - title: "Sovereign Cloud explained"
           url: https://www.vmware.com/topics/glossary/content/sovereign-cloud.html
         - title: "VMware Sovereign Cloud secure and compliant infrastructure"
           url: https://www.vmware.com/solutions/cloud-infrastructure/sovereign-cloud
