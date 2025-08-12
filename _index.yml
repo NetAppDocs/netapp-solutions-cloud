@@ -19,8 +19,6 @@ indexpage:
           url: ehc/index.html
         - title: "NetApp hybrid multicloud with Red Hat"
           url: rhhc/index.html
-        - title: "VMware Sovereign Cloud"
-          url: vmw-sc/index.html
 #
     - title: "VMware Sovereign Cloud solution"
       links:
