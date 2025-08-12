@@ -1,9 +1,9 @@
 section: rhhc
-title: "NetApp Hybrid multicloud with Red Hat OpenShift"
+title: "NetApp hybrid multicloud with Red Hat OpenShift"
 url: /rhhc/index.html
 entries:
   - title: "Overview"
-    pdf-filename: "Red Hat Openshift for hybrid multi-cloud"
+    pdf-filename: "Red Hat Openshift for hybrid multicloud"
     entries:
       - title: "Overview"
         url: /openshift/os-solutions-overview.html

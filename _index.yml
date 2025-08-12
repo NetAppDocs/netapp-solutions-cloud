@@ -3,6 +3,7 @@ indexpage:
   lead: "NetApp solutions are a set of strategic and technology capabilities that emphasize the NetApp portfolio of products and services to support our customers' most critical business needs."
   summary: "NetApp solutions are a set of strategic and technology capabilities that emphasize the NetApp portfolio of products and services to support our customers' most critical business needs."
   tiles:
+#
     - title: "Get started"
       links:
         - title: "What's new"
@@ -14,12 +15,25 @@ indexpage:
 #
     - title: "Cloud and hybrid cloud solutions"
       links:
-        - title: "NetApp Hybrid Multicloud with VMware"
+        - title: "NetApp hybridbrid multicloud with VMware"
           url: ehc/index.html
-        - title: "NetApp Hybrid Multicloud with Red Hat"
+        - title: "NetApp hybrid multicloud with Red Hat"
           url: rhhc/index.html
         - title: "VMware Sovereign Cloud"
           url: vmw-sc/index.html
+#
+    - title: "VMware Sovereign Cloud solution"
+      links:
+        - title: "Learn about Sovereign Cloud"
+          url: https://docs.netapp.com/us-en/netapp-solutions-virtualization/vmware/vmw-sovereign-cloud.html
+        - title: "NetApp integrations with Sovereign Cloud"
+          url: https://docs.netapp.com/us-en/netapp-solutions-virtualization/vmware/vmw-sovereign-cloud-use-cases.html
+        - title: "Solution overview for Sovereign Cloud overview"
+          url: https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/docs/vmw-sovereign-cloud-solution-brief-customer.pdf
+        - title: "What is Sovereign Cloud?"
+          url: https://www.vmware.com/topics/glossary/content/sovereign-cloud.html
+        - title: "VMware Sovereign Cloud secure and compliant infrastructure"
+          url: https://www.vmware.com/solutions/cloud-infrastructure/sovereign-cloud
 #
     - title: "Solution requests and feedback"
       links:
