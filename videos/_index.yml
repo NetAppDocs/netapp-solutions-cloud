@@ -1,0 +1,30 @@
+indexpage:
+  title: Watch videos and demos on hybrid multicloud solutions with NetApp
+  lead: "Explore NetApp's video library for hybrid multicloud solutions, featuring AWS, Azure, and Red Hat OpenShift. Each collection highlights key use cases, integration scenarios, and workflows."
+  tiles:
+    - title: "AWS hybrid multicloud videos"
+      links:
+        - title: "Guest connected storage"
+          url: hmc-aws-videos.html#guest-connected-storage
+        - title: "TCO and supplemental datastores"
+          url: hmc-aws-videos.html#tco-and-supplemental-datastores
+        - title: "Migration workflows (HCX)"
+          url: hmc-aws-videos.html#migration-workflows-hcx
+    - title: "Azure hybrid multicloud videos"
+      links:
+        - title: "Supplemental datastores"
+          url: hmc-azure-videos.html#supplemental-datastores
+        - title: "Disaster recovery"
+          url: hmc-azure-videos.html#disaster-recovery
+        - title: "Migration workflows (HCX)"
+          url: hmc-azure-videos.html#migration-workflows-hcx
+    - title: "OpenShift hybrid multicloud videos"
+      links:
+        - title: "Snapshots and restore"
+          url: hmc-openshift-videos.html#snapshots-and-restore
+        - title: "Storage integration"
+          url: hmc-openshift-videos.html#storage-integration
+        - title: "Failover and fail-back"
+          url: hmc-openshift-videos.html#failover-and-fail-back
+        - title: "Solution automation"
+          url: hmc-openshift-videos.html#solution-automation
