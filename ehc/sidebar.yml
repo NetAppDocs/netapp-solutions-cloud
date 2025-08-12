@@ -38,7 +38,7 @@ entries:
             url: /vmware/vmw-azure-avs-storage.html
           - title: "About supplemental NFS datastore for AVS"
             url: /vmware/vmw-azure-avs-nfs-ds-overview.html
-          - title: "Create a supplemental NFS datastore in Azure"
+          - title: "Create supplemental NFS datastores in Azure"
             url: /vmware/vmw-azure-avs-nfs-ds-config.html
           - title: "Guest connected storage for AVS"
             url: /vmware/vmw-azure-avs-guest-storage.html
@@ -63,12 +63,12 @@ entries:
         url: /vmware/vmw-azure-avs-solutions.html
       - title: "Solutions for GCP / GCVE"
         url: /vmware/vmw-gcp-gcve-solutions.html
-  - title: "NetApp for AWS / VMC"
+  - title: "NetApp for AWS/VMC"
     entries:
       - title: "Overview"
         pdf-filename: "About NetApp for AWS"
         url: /vmware/vmw-aws-vmc-overview.html
-      - title: "Protecting workloads on AWS / VMC"
+      - title: "Protect workloads on AWS/VMC"
         entries:
           - title: "Disaster recovery with VMC on AWS (guest connected)"
             pdf-filename: "Disaster Recovery with VMC on AWS (guest connected)"
@@ -82,7 +82,7 @@ entries:
           - title: "Use Veeam replication and FSx ONTAP for disaster recovery to VMware Cloud on AWS"
             pdf-filename: "Using Veeam Replication and FSx ONTAP for Disaster recovery to VMware Cloud on AWS"
             url: /vmware/vmw-aws-fsxn-vmc-ds-dr-veeam.html
-      - title: "Migrate workloads on AWS / VMC"
+      - title: "Migrate workloads on AWS/VMC"
         entries:
           - title: "Migrate workloads to FSx ONTAP datastore using VMware HCX"
             pdf-filename: "Migrating Workloads to FSx ONTAP datastore using VMware HCX"
