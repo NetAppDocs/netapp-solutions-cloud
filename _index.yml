@@ -13,8 +13,6 @@ indexpage:
         - title: "Videos and demos"
           url: /videos/index.html
 #
-
-#
     - title: "NetApp hybrid multicloud with VMware"
       links:
         - title: "VMware for public cloud"
