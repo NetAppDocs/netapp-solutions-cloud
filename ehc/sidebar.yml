@@ -6,7 +6,7 @@ entries:
   - title: "VMware for public cloud"
     pdf-filename: "VMware for Public Cloud on NetApp"
     entries:
-      - title: "Overview"
+      - title: "Solution overview"
         url: /vmware/vmw-hybrid-overview.html
       - title: "VMware Cloud on hyperscaler clouds"
         url: /vmware/vmw-hybrid-hyperscalers.html
