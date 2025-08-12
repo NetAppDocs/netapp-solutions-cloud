@@ -13,7 +13,7 @@ indexpage:
         - title: "Videos and demos"
           url: /videos/index.html
 #
-    - title: "NetApp hybrid multicloud with VMware"
+    - title: "NetApp cloud solutions for VMware"
       links:
         - title: "VMware for public cloud"
           url: /vmware/vmw-hybrid-overview.html
@@ -30,9 +30,9 @@ indexpage:
         - title: "BlueXP disaster recovery for VMware"
           url: /vmware/vmw-hybrid-dr-overview.html
 
-    - title: "NetApp hybrid multicloud with OpenShift"
+    - title: "NetApp cloud solutions for OpenShift"
       links:
-        - title: "On-premises"
+        - title: "OpenShift for on-premises"
           url: /openshift/os-op-solution.html
         - title: "Hybrid cloud with self-managed components"
           url: /openshift/os-sm-solution.html
