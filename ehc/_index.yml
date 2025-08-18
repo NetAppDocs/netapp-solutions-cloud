@@ -1,0 +1,87 @@
+indexpage:
+  title: NetApp Hybrid Multicloud with VMware Solutions
+  lead: "NetApp Hybrid Multicloud with VMware solutions are a set of strategic and technology capabilities that demonstrate the capabilities of NetApp storage in the major public cloud hyperscalers."
+  summary: "NetApp Hybrid Multicloud with VMware solutions are a set of strategic and technology capabilities that demonstrate the capabilities of NetApp storage in the major public cloud hyperscalers."
+  tiles:
+    - title: "Get started"
+      links:
+        - title: "Overview"
+          url: ../vmware/vmw-hybrid-overview.html
+        - title: "NetApp solutions for VMware in hyperscaler clouds"
+          url: ../vmware/vmw-hybrid-hyperscalers.html
+        - title: "Supported storage options"
+          url: ../vmware/vmw-hybrid-support-configs.html
+        - title: "Supported solutions"
+          url: ../vmware/vmw-hybrid-solutions.html
+        - title: "Summary"
+          url: ../vmware/vmw-hybrid-summary.html
+#
+    - title: "NetApp on AWS (VMC)"
+      links:
+        - title: "NetApp Hybrid Multicloud with VMware for VMC"
+          url: ../vmware/vmw-aws-vmc-overview.html
+        - title: "Configure the virtualization environment"
+          url: ../vmware/vmw-aws-vmc-setup.html
+        - title: "Options for attaching NetApp storage"
+          url: ../vmware/vmw-aws-vmc-storage.html
+        - title: "Hybrid multicloud solutions for VMC"
+          url: ../vmware/vmw-aws-vmc-solutions.html
+#
+    - title: "NetApp on Azure (AVS)"
+      links:
+        - title: "NetApp Hybrid Multicloud with VMware for AVS"
+          url: ../vmware/vmw-azure-avs-overview.html
+        - title: "Configure the virtualization environment"
+          url: ../vmware/vmw-azure-avs-setup.html
+        - title: "Options for attaching NetApp storage"
+          url: ../vmware/vmw-azure-avs-storage.html
+        - title: "Hybrid multicloud solutions for AVS"
+          url: ../vmware/vmw-azure-avs-solutions.html
+#
+    - title: "NetApp on Google Cloud Platform"
+      links:
+        - title: "NetApp Hybrid Multicloud with VMware for GCVE"
+          url: ../vmware/vmw-gcp-gcve-overview.html
+        - title: "Configure the virtualization environment"
+          url: ../vmware/vmw-gcp-gcve-setup.html
+        - title: "Options for attaching NetApp storage"
+          url: ../vmware/vmw-gcp-gcve-storage.html
+        - title: "Hybrid multicloud solutions for GCVE"
+          url: ../vmware/vmw-gcp-gcve-solutions.html
+        - title: "NetApp volumes in Google Cloud"
+          url: ../google/gcp-gcnv-overview.html
+#
+    - title: "Simulators"
+      links:
+        - title: "FSx ONTAP + VMC simulator"
+          url: https://netapp-automation.github.io/FSx-VMC-Simulator
+        - title: "ANF + AVS simulator"
+          url: https://netapp-automation.github.io/ANF-AVS-Simulator
+        - title: "DRO for AWS with VMC simulator"
+          url: https://netapp-automation.github.io/dro-simulator/?intro-1
+        - title: "DRO for ANF with AVS simulator"
+          url: https://netapp-automation.github.io/dro-simulator-avs-anf/?intro-1
+        - title: "BlueXP DRaaS simulator"
+          url: https://netapp-automation.github.io/DRaaS_Simulator/?0.1
+        - title: "BlueXP - Backup and Recovery for VMs simulator"
+          url: https://netapp-automation.github.io/Backup_and_Recovery_for_VMs_Simulator/?0.1
+#
+    - title: "TCO calculators"
+      links:
+        - title: "FSx ONTAP + VMC TCO calculator"
+          url: https://cloud.netapp.com/vmc-aws-fsx-ontap/roi
+        - title: "ANF + AVS TCO calculator"
+          url: https://bluexp.netapp.com/anf-avs/tcoestimator
+        - title: "GCVE + NetApp Volumes TCO estimator"
+          url: https://bluexp.netapp.com/gcve-cvs/roi
+ #
+    - title: "BlueXP disaster recovery"
+      links:
+        - title: "Protect data for VMware with SnapCenter Plug-in and BlueXP backup and recovery for VMs"
+          url: ../vmware/vmw-hybrid-321-dp-scv.html
+        - title: "Disaster recovery using BlueXP"
+          url: ../vmware/vmw-hybrid-dr-overview.html
+        - title: "Disaster recovery using BlueXP for NFS datastores"
+          url: ../vmware/vmw-hybrid-dr-nfs.html
+        - title: "Disaster recovery using BlueXP for VMFS datastores"
+          url: ../vmware/vmw-hybrid-dr-vmfs.html

@@ -1,14 +1,66 @@
 indexpage:
-  title: # Unquoted string 
-  lead: # Quoted string
-  summary: # Quoted string 
-  keywords: # Unquoted comma-delimited list of keywords 
-  tiles: 
-    # Tile definition 
-    - title: # Quoted or unquoted string
-      links: 
-        # Link definition
-        - title: # Quoted or unquoted string
-          url: # Path to target
-        # Next link on this tile (title/url pair)
-    # Next tile on this page (title/links)
+  title: NetApp public and hybrid cloud solutions
+  lead: "NetApp solutions are a set of strategic and technology capabilities that emphasize the NetApp portfolio of products and services to support our customers' most critical business needs."
+  summary: "NetApp solutions are a set of strategic and technology capabilities that emphasize the NetApp portfolio of products and services to support our customers' most critical business needs."
+  tiles:
+#
+    - title: "Get started"
+      links:
+        - title: "What's new"
+          url: /whats-new.html
+        - title: "Blogs"
+          url: /blogs.html
+        - title: "Videos and demos"
+          url: /videos/index.html
+#
+    - title: "NetApp cloud solutions for VMware"
+      links:
+        - title: "VMware for public cloud"
+          url: /vmware/vmw-hybrid-overview.html
+        - title: "VMware hybrid cloud use cases"
+          url: /vmware/vmw-hybrid-use-cases.html
+        - title: "NetApp for AWS/VMC"
+          url: /vmware/vmw-aws-vmc-overview.html
+        - title: "NetApp for AWS/EVS"
+          url: /vmware/evs-mount-fsxn-intro.html
+        - title: "NetApp for Azure/AVS"
+          url: /vmware/vmw-azure-avs-overview.html
+        - title: "NetApp for GCP/GCVE"
+          url: /vmware/vmw-gcp-gcve-overview.html
+        - title: "BlueXP disaster recovery for VMware"
+          url: /vmware/vmw-hybrid-dr-overview.html
+
+    - title: "NetApp cloud solutions for OpenShift"
+      links:
+        - title: "OpenShift for on-premises"
+          url: /openshift/os-op-solution.html
+        - title: "Hybrid cloud with self-managed components"
+          url: /openshift/os-sm-solution.html
+        - title: "Hybrid cloud with provider-managed components"
+          url: /openshift/os-pm-solution.html
+        - title: "Protect data using Trident Protect"
+          url: /openshift/os-dp-tp-solution.html
+        - title: "Protect container apps using third-party tools"
+          url: /openshift/os-dp-velero-solution.html
+#
+    - title: "VMware Sovereign Cloud solution"
+      links:
+        - title: "Learn about Sovereign Cloud"
+          url: https://docs.netapp.com/us-en/netapp-solutions-virtualization/vmware/vmw-sovereign-cloud.html
+        - title: "NetApp integrations with Sovereign Cloud"
+          url: https://docs.netapp.com/us-en/netapp-solutions-virtualization/vmware/vmw-sovereign-cloud-use-cases.html
+        - title: "Solution overview for Sovereign Cloud"
+          url: https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/docs/vmw-sovereign-cloud-solution-brief-customer.pdf
+        - title: "Sovereign Cloud explained"
+          url: https://www.vmware.com/topics/glossary/content/sovereign-cloud.html
+        - title: "VMware Sovereign Cloud secure and compliant infrastructure"
+          url: https://www.vmware.com/solutions/cloud-infrastructure/sovereign-cloud
+#
+    - title: "Solution requests and feedback"
+      links:
+        - title: "Request automation"
+          url: https://github.com/NetAppDocs/netapp-solutions/issues/new?body=[Request%20Automation]%0d%0a%0d%0aSolution%20Name:%20%0d%0aRequest%20Title:%20%0d%0aDescription:%0d%0aSuggestions:&title=Request%20Automation%20-%20%3Crequest_title%3E
+        - title: "Propose a new solution"
+          url: https://github.com/NetAppDocs/netapp-solutions/issues/new?body=[Request%20Solution]%0d%0a%0d%0aSolution%20Use%20Case:%20%0d%0aSolution%20Description:%20%0d%0aAdditional%20Comments:&title=Request%20Solution%20-%20%3Csolution%3E
+        - title: "Provide solution feedback"
+          url: https://github.com/NetAppDocs/netapp-solutions/issues/new?body=[Solution%20Feedback]%0d%0a%0d%0aSolution%20Name:%20%0d%0aSolution%20Feedback:%20%0d%0aAdditional%20Comments:&title=Solution%20Feedback%20-%20%3Csolution%3E

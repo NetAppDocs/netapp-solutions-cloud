@@ -1,0 +1,37 @@
+---
+sidebar: sidebar
+permalink: google/gcp-gcnv-arch-overview.html
+keywords: architecture overview, control plane, data plane
+summary: Part of trusting a cloud solution is understanding the architecture and how it is secured. This section calls out different aspects of the Google Cloud NetApp Volumes architecture in Google to help alleviate potential concerns about how data is secured, as well as call out areas where additional configuration steps might be required to obtain the most secure deployment.
+---
+
+= Overview
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-05-09 14:20:40.917226
+//
+
+[.lead]
+Part of trusting a cloud solution is understanding the architecture and how it is secured. This section calls out different aspects of the Google Cloud NetApp Volumes architecture in Google to help alleviate potential concerns about how data is secured, as well as call out areas where additional configuration steps might be required to obtain the most secure deployment.
+
+The general architecture of Google Cloud NetApp Volumes can be broken down into two main components: the control plane and the data plane.
+
+== Control plane
+
+The control plane in Google Cloud NetApp Volumes is the backend infrastructure managed by Google Cloud NetApp Volumes administrators and NetApp native automation software. This plane is completely transparent to end users and includes networking, storage hardware, software updates,  and so on to help deliver value to a cloud-resident solution such as Google Cloud NetApp Volumes.
+
+== Data plane
+
+The data plane in Google Cloud NetApp Volumes includes the actual data volumes and the overall Google Cloud NetApp Volumes configuration (such as access control, Kerberos authentication, and so on). The data plane is entirely under the control of the end users and the consumers of the Google Cloud NetApp Volumes platform.
+
+There are distinct differences in how each plane is secured and managed. The following sections cover these differences, starting with a Google Cloud NetApp Volumes architecture overview.
+
+
+// NetApp Solutions restructuring (jul 2025) - renamed from ehc/ncvs-gc-architecture_overview.adoc
