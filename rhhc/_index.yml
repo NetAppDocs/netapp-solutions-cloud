@@ -43,7 +43,7 @@ indexpage:
           url: ../openshift/os-pm-setup.html
         - title: "Protect data using ACS"
           url: ../openshift/os-pm-aws-dp.html
-        - title: "Migrate data using BlueXP"
+        - title: "Migrate data using NetApp Console"
           url: ../openshift/os-pm-aws-data-migration.html
         - title: "Additional solutions"
           url: ../openshift/os-pm-rosa-additional.html

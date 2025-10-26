@@ -61,27 +61,29 @@ indexpage:
           url: https://netapp-automation.github.io/dro-simulator/?intro-1
         - title: "DRO for ANF with AVS simulator"
           url: https://netapp-automation.github.io/dro-simulator-avs-anf/?intro-1
-        - title: "BlueXP DRaaS simulator"
+        - title: "NetApp Disaster Recovery simulator"
           url: https://netapp-automation.github.io/DRaaS_Simulator/?0.1
-        - title: "BlueXP - Backup and Recovery for VMs simulator"
+        - title: "NetApp Backup and Recovery for VMs simulator"
           url: https://netapp-automation.github.io/Backup_and_Recovery_for_VMs_Simulator/?0.1
 #
     - title: "TCO calculators"
       links:
+        - title: "VSAN vs ONTAP TCO calculator"
+          url: https://tco.solutions.netapp.com/
         - title: "FSx ONTAP + VMC TCO calculator"
-          url: https://cloud.netapp.com/vmc-aws-fsx-ontap/roi
+          url: https://tco.solutions.netapp.com/vmcfsxntco/
         - title: "ANF + AVS TCO calculator"
-          url: https://bluexp.netapp.com/anf-avs/tcoestimator
+          url: https://tco.solutions.netapp.com/anfavstco/
         - title: "GCVE + NetApp Volumes TCO estimator"
-          url: https://bluexp.netapp.com/gcve-cvs/roi
+          url: https://tco.solutions.netapp.com/gcvegcnvtco/
  #
-    - title: "BlueXP disaster recovery"
+    - title: "NetApp Disaster Recovery"
       links:
-        - title: "Protect data for VMware with SnapCenter Plug-in and BlueXP backup and recovery for VMs"
+        - title: "Protect data for VMware with SnapCenter Plug-in and NetApp Backup and Recovery for VMs"
           url: ../vmware/vmw-hybrid-321-dp-scv.html
-        - title: "Disaster recovery using BlueXP"
+        - title: "Disaster recovery using NetApp"
           url: ../vmware/vmw-hybrid-dr-overview.html
-        - title: "Disaster recovery using BlueXP for NFS datastores"
+        - title: "NetApp Disaster recovery for NFS datastores"
           url: ../vmware/vmw-hybrid-dr-nfs.html
-        - title: "Disaster recovery using BlueXP for VMFS datastores"
+        - title: "NetApp Disaster recovery for VMFS datastores"
           url: ../vmware/vmw-hybrid-dr-vmfs.html

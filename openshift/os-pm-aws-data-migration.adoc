@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: openshift/os-pm-aws-data-migration.html
-keywords: NetApp Solutions, redhat OpenShift, red hat OpenShift, redhat openshift container platform, ocp, openshift container platform, Advanced Cluster Management, ACM, Hub Cluster, containers, container workloads, VMware, customer managed storage, ONTAP, Ansible Automation Platform, BlueXP
+keywords: NetApp Solutions, redhat OpenShift, red hat OpenShift, redhat openshift container platform, ocp, openshift container platform, Advanced Cluster Management, ACM, Hub Cluster, containers, container workloads, VMware, customer managed storage, ONTAP, Ansible Automation Platform, Data servcies
 summary:
 ---
 
@@ -28,14 +28,14 @@ video::621ae20d-7567-4bbf-809d-b01200fa7a68[panopto, title="ROSA Cluster Integra
 
 The migration of container applications involves:
 
-- Persistent volumes: this can be accomplished using BlueXP. 
+- Persistent volumes: this can be accomplished using NetApp Data Services. 
 Another option is to use Trident Protect to handle container application migrations from on-premises to the cloud environment. Automation can be used for the same purpose. 
 
 - Application metadata: this can be accomplished using OpenShift GitOps (Argo CD).
 
 === Failover and Fail-back of applications on ROSA cluster using FSx ONTAP for persistent storage
 
-The following video is a demonstration of application failover and fail-back scenarios using BlueXP and Argo CD.
+The following video is a demonstration of application failover and fail-back scenarios using NetApp Console and Argo CD.
 
 video::e9a07d79-42a1-4480-86be-b01200fa62f5[panopto, title="Failover and Fail-back of applications on ROSA cluster"]
 

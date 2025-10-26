@@ -279,16 +279,15 @@ You must be able to perform the following tasks:
 * Configure the VMware Cloud on AWS SDDC.
 =====
 
-.Cloud Manager account verification
+.NetApp Console account verification
 [%collapsible%open]
 =====
-You must be able to deploy resources with NetApp Cloud Manager. To verify that you can, complete the following tasks:
+You must be able to deploy resources with NetApp Console. To verify that you can, complete the following tasks:
 
-* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html[Sign up for Cloud Central^] if you haven't already.
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html[Log into Cloud Manager^].
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-setting-up-netapp-accounts.html[Set up Workspaces and Users^].
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[Create a connector^].
-=====
+* https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html#how-netapp-console-works[Understand how NetApp Console works].
+* https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html[Log into NetApp Console^].
+* https://docs.netapp.com/us-en/console-setup-admin/concept-agents.html#what-you-can-do-without-a-console-agent[Understand what you can do without a Console agent].
+* https://docs.netapp.com/us-en/console-setup-admin/concept-install-options-aws.html[Deploy NetApp Console agent on AWS^].
 
 .Amazon FSx ONTAP
 [%collapsible%open]
@@ -670,7 +669,7 @@ We deployed an SDDC in VMware Cloud on AWS with two hosts to provide adequate re
 image:dr-vmc-aws-009.png["Figure showing input/output dialog or representing written content"]
 ====
 
-== BlueXP backup and recovery Tools
+== NetApp Backup and Recovery Tools
 
 To conduct a failover of our application VMs and database volumes to VMware Cloud Volume services running in AWS, it was necessary to install and configure a running instance of both SnapCenter Server and Veeam Backup and Replication Server. After failover is complete, these tools must also be configured to resume normal backup operations until a failback to the on-premises datacenter is planned and executed.
 
