@@ -21,7 +21,7 @@ Utilizing the Disaster Recovery, part of NetApp Data Services,, customers can di
 
 image:dr-draas-vmfs-030.png["Figure showing input/output dialog or representing written content"]
 
-NOTE: For up-to-date information and supported versions of vCenter Server, ESXi, and ONTAP for Disaster Recovery, refer to the link:https://docs.netapp.com/us-en/data-services-disaster-recovery/install/supported-configurations/dr-supported-versions.html[Disaster Recovery supported configurations].
+NOTE: For up-to-date information and supported versions of vCenter Server, ESXi, and ONTAP for Disaster Recovery, refer to the link:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-intro.html[Disaster Recovery supported configurations].
 
 == Getting started
 

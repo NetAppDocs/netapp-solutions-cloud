@@ -23,7 +23,7 @@ Disaster Recovery leverages ONTAP's FlexClone technology to create a space-effic
 
 image:dr-draas-nfs-001.png["Figure showing input/output dialog or representing written content"]
 
-NOTE: For up-to-date information and supported versions of vCenter Server, ESXi, and ONTAP for Disaster Recovery, refer to the link:https://docs.netapp.com/us-en/data-services-disaster-recovery/install/supported-configurations/dr-supported-versions.html[Disaster Recovery supported configurations].
+NOTE: For up-to-date information and supported versions of vCenter Server, ESXi, and ONTAP for Disaster Recovery, refer to the link:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-intro.html[Disaster Recovery supported configurations].
 
 === Getting started
 
