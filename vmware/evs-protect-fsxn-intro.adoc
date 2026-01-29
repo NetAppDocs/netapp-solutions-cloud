@@ -2,10 +2,11 @@
 sidebar: sidebar
 permalink: vmware/evs-protect-fsxn-intro.html
 keywords: Amazon, AWS, EVS, Elastic VMware Service, ONTAP, FSx
-summary: This document will present detailed steps for creating an FSx for ONTAP file system and attaching it for use as either an Internet Small Computer System Interface (iSCSI) or Network File System (NFS) datastore for use with Amazon EVS.
+summary: This guide will demonstrate a simple deployment approach for protecting FSx for ONTAP Network File System (NFS) and iSCSI Amazon EVS datastores and associated VMs using the NetApp SnapCenter® Plug-in for VMware vSphere (SCV) backup and recovery solution for VMs.
+
 ---
 
-= How to mount Amazon FSx for NetApp ONTAP as an external datastore for Amazon Elastic VMware Service
+= How to protect Amazon FSx for NetApp ONTAP datastores with Amazon Elastic VMware Service using NetApp SnapCenter Plug-in for VMware
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,37 +14,44 @@ summary: This document will present detailed steps for creating an FSx for ONTAP
 :imagesdir: ../media/
 
 [.lead]
-PLACEHOLDER This document will present detailed steps for creating an FSx for ONTAP file system and attaching it for use as either an Internet Small Computer System Interface (iSCSI) or Network File System (NFS) datastore for use with Amazon EVS.
+EDITED This guide will demonstrate a simple deployment approach for protecting FSx for ONTAP Network File System (NFS) and iSCSI Amazon EVS datastores and associated VMs using the NetApp SnapCenter® Plug-in for VMware vSphere (SCV) backup and recovery solution for VMs.
 
 == Introduction
 
-Organizations with existing on-premises VMware investments looking for efficient and cost-effective ways to modernize their deployments by migrating, bursting, extending, or protecting (backup, disaster recovery) copies on AWS have faced several challenges. With the release of Amazon Elastic VMware Service (Amazon EVS) there is now a native AWS service that makes it possible to run VMware Cloud Foundation (VCF) directly in an Amazon Virtual Private Cloud (VPC). 
+Amazon FSx for NetApp ONTAP (FSx for ONTAP)-based supplemental datastores for Amazon Elastic VMware Service (Amazon EVS) offer an excellent solution for running both performance-demanding workloads—such as leveraging nConnect, Amazon Virtual Private Cloud (Amazon VPC) peering, and using multiple network connections per datastore mount—and storage-intensive workloads. 
 
-Amazon EVS makes it possible to extend existing VCF deployments to AWS, burst into AWS to expand performance during peak usage, and entirely run VCF workloads on AWS to facilitate modernizations, data center exits, consolidations, and other use cases.
-
-Although Amazon EVS provides strong benefits, the default hyper-converged architecture couples compute and storage, preventing independent scale of one or the other as business needs dictate. In today's data-centric world, storage demands in many organizations are higher than those for compute. However, with the VMware hyper-converged architecture, storage resources are coupled with compute resources. That means scaling storage can only be done by adding compute hosts that will never be used. It's a situation that can raise costs considerably, especially in storage-heavy workloads.
-
-To solve this issue, AWS and NetApp offer Amazon FSx for NetApp ONTAP (FSx for ONTAP) as the external storage service for Amazon EVS. FSx for ONTAP is an AWS-native storage service that delivers the high performance, data resilience, and cost-efficiency features of NetApp ONTAP software. By using FSx for ONTAP as external storage, Amazon EVS users can scale compute and storage resources independently, allowing for optimal total cost of ownership (TCO).
+This capability enables customers to overcome the limitations of local instance storage provided by a virtual storage area network (vSAN), scale storage independently of compute, and lower overall total cost of ownership. Beyond total cost of ownership (TCO) benefits, FSx for ONTAP delivers Amazon EVS with enterprise-grade features familiar to customers of on-premises ONTAP®, helping optimize and streamline deployments. Using FSx for ONTAP provides access to NetApp® Snapshot™, SnapMirror®, and SnapVault® technologies that support back up and restoration operations for virtual machines (VMs), datastores, and virtual machine disks (VMDKs). One key feature is Snapshot-based protection. 
 
 == Overview
 
-This document will present detailed steps for creating an FSx for ONTAP file system and attaching it for use as either an Internet Small Computer System Interface (iSCSI) or Network File System (NFS) datastore for use with Amazon EVS.
+As organizations scale and consolidate environments, the need to protect those workloads and the underlying storage becomes increasingly important. SCV can be used to back up datastores and virtual machines directly from the Amazon EVS vSphere client. 
 
 == Purpose of this Guide
 
-This guide provides instructions on how to set up an FSx for ONTAP datastore for Amazon EVS, as well as best practices, supportability requirements, sizing considerations, and other information to help you plan, design, and implement the integration.
+This guide provides instructions on how to protect an FSx for ONTAP datastore for Amazon EVS using SCV. Example scenarios of protecting VMs and databases are provided as well as restore. 
 
 == Audience
 
-This tutorial is intended for Cloud Architects and Cloud Administrators familiar with VMware vSphere, Amazon EVS, the AWS Console, and FSx for ONTAP.
+This tutorial is intended for Cloud Architects and Cloud Administrators familiar with VMware vSphere, Amazon EVS, the AWS Console, and FSx for ONTAP. 
 
-== High-level architecture
+== High-level steps for deployment and configuration
 
-In this section, we will give an overview of the solution architecture for using FSx for ONTAP as a datastore for Amazon EVS. 
+Below are the high-level steps for deploying and configuring SCV to protect your VMs and datastores on Amazon EVS:
 
-Below you can see a high-level view of the architecture of the FSx for ONTAP datastore with an Amazon EVS environment within an AWS VPC.
+. Download the SCV Open Virtual Appliance (OVA).
 
-image:evs-mount-fsxn-001.png[Figure representing the high level architecture for this solution]
+. Log in with the vSphere Client credentials to Amazon EVS.
 
+. Deploy an Open Virtualization Format (OVF) template to start the VMware deployment wizard.
 
-// NetApp Solutions restructuring (jul 2025) - renamed from ehc/evs-mount-fsxn-intro.adoc
+. To access the plug-in, select SnapCenter Plug-in for VMware from the menu.
+
+. Add storage.
+
+. Create backup policies.
+
+. Create resource groups.
+
+. Backup resource groups.
+
+. Restore the entire virtual machine or particular virtual disk or guest files.
