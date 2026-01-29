@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: vmware/evs-protect-fsxn-setup-sc.html
 keywords: Amazon, AWS, EVS, Elastic VMware Service, ONTAP, FSx
-summary: his section covers the steps to setup SnapCenter Plug-in for VMware.
+summary: This section covers the steps to setup SnapCenter Plug-in for VMware.
 ---
 
 = Setup procedure for SnapCenter Plug-in for VMware
