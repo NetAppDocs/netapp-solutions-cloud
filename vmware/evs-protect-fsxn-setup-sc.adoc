@@ -27,7 +27,7 @@ The following prerequisites are required before you get started:
 
 . Update the Security Group of the Amazon VPC where FSx for ONTAP is running to allow SCV access to FSx for ONTAP. 
 
-Note: SCV is available free of charge.
+NOTE: SCV is available free of charge.
 
 == Setting up the SnapCenter Plug-in for VMware
 

@@ -25,7 +25,7 @@ The next step in protecting workloads with SVC is to add the link:https://docs.n
 
 . Select "Add" to add the FSx for ONTAP details.
 
-Use the "Credentials as the Authentication" method and enter FSxadmin as the username and password. Then select "Add" to save the settings.
+. Use the "Credentials as the Authentication" method and enter FSxadmin as the username and password. Then select "Add" to save the settings.
 
 image:evs-protect-fsxn-002.png[Figure representing the dialog for the above step]
 
@@ -72,7 +72,7 @@ You can create a link:https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere/scp
 . Go to the left-side navigation pane in SCV and select "Resource Groups".
 
 . On the Resource Groups page, select "Create" to start the resource group creation wizard. 
-
++
 NOTE: Another option to create resource groups is by selecting an individual VM or datastore and creating a resource group that contains only that resource.
 
 . On the "Resources" page, select the scope (VMs or datastores) and the data center.
@@ -94,7 +94,7 @@ Back up operations are executed on all resources defined within a resource group
 . In the left navigation of the vCenter web client page, select "SnapCenter Plug-in for VMware" then "Resource Groups".
 
 . In the Resource Groups page, find the designated resource group and select "Run Now" to start the manual back up.
-
++
 image:evs-protect-fsxn-006.png[Figure representing the dialog for the above step]
 
 . If the resource group has multiple policies configured, select the policy for the back up operation in the "Backup Now" dialog box.
