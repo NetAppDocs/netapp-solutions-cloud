@@ -78,7 +78,7 @@ Once you have set up a backup policy, you can monitor your back up operations as
 
 . Select the backup job, and then click "Details" to view the job details as below.
 +
-image:evs-mount-fsxn-033.png[Figure representing the dialog for the above step]
+image:evs-protect-fsxn-033.png[Figure representing the dialog for the above step]
 
 == Restore of databases residing on the VMDKs
 
@@ -88,40 +88,40 @@ We can simulate the importance of this by deleting some tables in your database 
 
 Below you can see that several tables from our database shown in the first screenshot have been deleted in the second screenshot:
 
-image:evs-mount-fsxn-034.png[Figure representing the dialog for the above step]
+image:evs-protect-fsxn-034.png[Figure representing the dialog for the above step]
 
-image:evs-mount-fsxn-035.png[Figure representing the dialog for the above step]
+image:evs-protect-fsxn-035.png[Figure representing the dialog for the above step]
 
 The following steps show how to carry out a restoration to recover those deleted tables:
 
 . Select the database from the resource group.
 +
-image:evs-mount-fsxn-036.png[Figure representing the dialog for the above step]
+image:evs-protect-fsxn-036.png[Figure representing the dialog for the above step]
 
 . In the Restore page, select the option "Restore the database to the same host where the backup was created". 
 +
-image:evs-mount-fsxn-037.png[Figure representing the dialog for the above step]
+image:evs-protect-fsxn-037.png[Figure representing the dialog for the above step]
 
 . Select the option to use a log backup to a point in time. 
 +
-image:evs-mount-fsxn-038.png[Figure representing the dialog for the above step]
+image:evs-protect-fsxn-038.png[Figure representing the dialog for the above step]
 
 . Select "Overwrite database with same name during restore, Create transaction log backup before restore", and select "Next".
 +
-image:evs-mount-fsxn-039.png[Figure representing the dialog for the above step]
+image:evs-protect-fsxn-039.png[Figure representing the dialog for the above step]
 
 . Select the post-restore state you wish the database to assume from the list options and select "Next".
 +
-image:evs-mount-fsxn-040.png[Figure representing the dialog for the above step]
+image:evs-protect-fsxn-040.png[Figure representing the dialog for the above step]
 
 . On the summary page, select "Finish".
 +
-image:evs-mount-fsxn-041.png[Figure representing the dialog for the above step]
+image:evs-protect-fsxn-041.png[Figure representing the dialog for the above step]
 
 . Monitor the job to completion.
 +
-image:evs-mount-fsxn-042.png[Figure representing the dialog for the above step]
+image:evs-protect-fsxn-042.png[Figure representing the dialog for the above step]
 
 . Verify that the deleted tables have been successfully restored.
 +
-image:evs-mount-fsxn-043.png[Figure representing the dialog for the above step]
+image:evs-protect-fsxn-043.png[Figure representing the dialog for the above step]
