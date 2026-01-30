@@ -13,7 +13,7 @@ summary: This section covers the steps to restore guest files and folders protec
 :imagesdir: ../media/
 
 [.lead]
-EDITED The following section shows how to restore guest files and folders from VMDKs.
+The following section shows how to restore guest files and folders from VMDKs.
 
 NOTE: SnapCenter supports file and folder restoration from VMDKs only when the guest operating system is Windows.
 

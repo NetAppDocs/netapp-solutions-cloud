@@ -99,7 +99,7 @@ entries:
             url: /vmware/evs-mount-fsxn-iscsi.html
           - title: "Conclusion"
             url: /vmware/evs-mount-fsxn-conclusion.html
-      - title: "PLACEHOLDER Protect FSx ONTAP datastore for EVS"
+      - title: "Protect FSx ONTAP datastore for EVS"
         entries:
           - title: "Introduction"
             url: /vmware/evs-protect-fsxn-intro.html
@@ -141,7 +141,7 @@ entries:
             url: /vmware/vmw-azure-avs-migrate-hcx.html
   - title: "NetApp for GCP/GCVE"
     entries:
-      - title: "Netapp for Google Cloud overview"
+      - title: "NetApp for Google Cloud overview"
         pdf-filename: "Overview of Netapp for Google Cloud"
         url: /vmware/vmw-gcp-gcve-overview.html
       - title: "Protect workloads on GCP/GCVE"

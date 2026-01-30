@@ -13,7 +13,7 @@ summary: This section covers the steps to setup SnapCenter Plug-in for VMware.
 :imagesdir: ../media/
 
 [.lead]
-EDITED This section covers the steps to setup SnapCenter Plug-in for VMware.
+This section covers the steps to setup SnapCenter Plug-in for VMware.
 
 == Prerequisites
 

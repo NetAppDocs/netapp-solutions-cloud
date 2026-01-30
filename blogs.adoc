@@ -19,11 +19,11 @@ Read the blogs that offer practical guidance and best practices for integrating 
 * link:https://bluexp.netapp.com/blog/aws-fsxn-blg-migrate-vmware-to-amazon-ec2-iscsi-based-fsx-for-ontap[Migrate VMware VMs to AWS using Amazon EC2 and Amazon FSx ONTAP iSCSI protocol]
 * link:https://aws.amazon.com/about-aws/whats-new/2025/06/amazon-elastic-vmware-service-fsx-netapp-ontap/[Amazon EVS now integrates with FSx for ONTAP]
 * link:https://www.netapp.com/blog/amazon-elastic-vmware-service-fsx-ontap/[Amazon EVS announces support for FSx for ONTAP]
-* link:https://cloud.netapp.com/blog/aws-fsxo-blg-configure-hybrid-cloud-with-fsx-for-netapp-ontap-and-vmware-cloud-on-aws-sddc-using-vmware-hcx[Configure Hybrid Cloud with FSx ONTAP and VMware Cloud on AWS SDDC using VMware HCX]
+* link:https://www.netapp.com/blog/aws-fsxo-blg-configure-hybrid-cloud-with-fsx-for-netapp-ontap-and-vmware-cloud-on-aws-sddc-using-vmware-hcx/[Configure Hybrid Cloud with FSx ONTAP and VMware Cloud on AWS SDDC using VMware HCX]
 
 == Azure VMware solution
-* link:https://cloud.netapp.com/blog/azure-blg-optimize-storage-for-cloud-based-vmware-deployments[Optimize storage for cloud-based VMware deployments]
-* link:https://cloud.netapp.com/blog/azure-blg-netapp-cloud-offerings-with-azure-vmware-solution[Get started with Azure VMware solution using NetApp-based cloud offerings]
+* link:https://www.netapp.com/blog/vmware-optimize-storage-workloads/[Optimize storage and data-intensive VMware workloads in any cloud]
+* link:https://www.netapp.com/blog/vmware-migrate-workloads-azure/[VMware workloads to Azure VMware Solution? Read this first.]
 
 == Google Cloud VMware Engine
 * link:https://www.netapp.com/blog/cloud-volumes-service-google-cloud-vmware-engine/[Google Cloud NetApp Volumes datastore support for Google Cloud VMware Engine (NetApp)]
@@ -31,12 +31,12 @@ Read the blogs that offer practical guidance and best practices for integrating 
 * link:https://www.netapp.com/blog/cloud-volumes-service-google-cloud-vmware-engine/[NetApp Blog - A better way to migrate your storage-rich apps to Google Cloud]
 
 == Data protection and management
-* link:https://community.netapp.com/t5/Tech-ONTAP-Blogs/3-2-1-Data-Protection-for-VMware-with-SnapCenter-Plug-in-and-BlueXP-Backup-and/ba/p/446180[3-2-1 Data Protection for VMware with SnapCenter Plug-in and BlueXP Backup and Recovery for VMs]
-* link:https://community.netapp.com/t5/Tech-ONTAP-Blogs/Observability-for-the-Modern-Datacenter-with-NetApp-Cloud-Insights/ba/p/447495[Observability for the modern datacenter with NetApp Cloud Insights]
+* link:https://community.netapp.com/t5/Tech-ONTAP-Blogs/3-2-1-Data-Protection-for-VMware-with-SnapCenter-Plug-in-and-BlueXP-backup-and/ba-p/446180[3-2-1 Data Protection for VMware with SnapCenter Plug-in and BlueXP Backup and Recovery for VMs]
+* link:https://community.netapp.com/t5/Tech-ONTAP-Blogs/Observability-for-the-Modern-Datacenter-with-NetApp-Cloud-Insights/ba-p/447495[Observability for the modern datacenter with NetApp Cloud Insights]
 
 
 == NetApp for OpenShift container workloads
-* link:https://community.netapp.com/t5/Tech-ONTAP-Blogs/NetApp-ONTAP-doubles-up-as-storage-for-logs-in-Red-Hat-OpenShift-Container/ba/p/449280[NetApp ONTAP doubles as storage for logs in Red Hat OpenShift container platform]
+* link:https://community.netapp.com/t5/Tech-ONTAP-Blogs/NetApp-ONTAP-doubles-up-as-storage-for-logs-in-Red-Hat-OpenShift-Container/ba-p/449280[NetApp ONTAP doubles as storage for logs in Red Hat OpenShift container platform]
 
 == VMware Sovereign Cloud
 * link:https://blogs.vmware.com/cloud/2021/10/06/vmware-sovereign-cloud/[Introducing the new Sovereign Cloud initiative]

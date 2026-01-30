@@ -14,7 +14,7 @@ summary: This guide will demonstrate a simple deployment approach for protecting
 :imagesdir: ../media/
 
 [.lead]
-EDITED This guide will demonstrate a simple deployment approach for protecting FSx for ONTAP Network File System (NFS) and iSCSI Amazon EVS datastores and associated VMs using the NetApp SnapCenter® Plug-in for VMware vSphere (SCV) backup and recovery solution for VMs.
+This guide will demonstrate a simple deployment approach for protecting FSx for ONTAP Network File System (NFS) and iSCSI Amazon EVS datastores and associated VMs using the NetApp SnapCenter® Plug-in for VMware vSphere (SCV) backup and recovery solution for VMs.
 
 == Introduction
 

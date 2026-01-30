@@ -13,7 +13,7 @@ summary: This section covers the steps to protect databases running on VMware VM
 :imagesdir: ../media/
 
 [.lead]
-EDITED The following section shows how to protect databases running on VMware VMDKs with SnapCenter for SQL (SCSQL). 
+The following section shows how to protect databases running on VMware VMDKs with SnapCenter for SQL (SCSQL). 
 
 == Setting up SCSQL
 

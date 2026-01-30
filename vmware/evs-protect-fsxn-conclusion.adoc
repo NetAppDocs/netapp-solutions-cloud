@@ -13,7 +13,7 @@ summary: This document provided detailed steps using SCV and SnapCenter Plug-in 
 :imagesdir: ../media/
 
 [.lead]
-EDITED In this document, we provided detailed step by step guidance of deploying, configuring, and using SCV and link:https://docs.netapp.com/us-en/snapcenter/protect-scsql/concept_snapcenter_plug_in_for_microsoft_sql_server_overview.html[SnapCenter Plug-in for SQL Server (SCSQL)] while using FSx for ONTAP as the supplemental datastore with Amazon EVS clusters. 
+In this document, we provided detailed step by step guidance of deploying, configuring, and using SCV and link:https://docs.netapp.com/us-en/snapcenter/protect-scsql/concept_snapcenter_plug_in_for_microsoft_sql_server_overview.html[SnapCenter Plug-in for SQL Server (SCSQL)] while using FSx for ONTAP as the supplemental datastore with Amazon EVS clusters. 
 
 == Conclusion
 

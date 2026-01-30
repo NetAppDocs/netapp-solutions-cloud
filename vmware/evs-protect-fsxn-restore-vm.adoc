@@ -13,7 +13,7 @@ summary: This section covers the steps to restore VMs from backups.
 :imagesdir: ../media/
 
 [.lead]
-EDITED This section covers the steps to restore VMs from backups. SCV can be used to restore VMs within vCenter, allowing them to be recovered to the original datastore on the original ESXi host (overwriting existing content), to restore deleted or renamed VMs from a backup copy, to a different datastore on the original ESXi host, to the original datastore on a different ESXi host managed by the same vCenter, or to a different datastore on another ESXi host within the same vCenter environment. 
+This section covers the steps to restore VMs from backups. SCV can be used to restore VMs within vCenter, allowing them to be recovered to the original datastore on the original ESXi host (overwriting existing content), to restore deleted or renamed VMs from a backup copy, to a different datastore on the original ESXi host, to the original datastore on a different ESXi host managed by the same vCenter, or to a different datastore on another ESXi host within the same vCenter environment. 
 
 == Steps to perform restore operation
 
