@@ -5,7 +5,7 @@ keywords: Amazon, AWS, EVS, Elastic VMware Service, ONTAP, FSx, iscsi
 summary: This section covers the steps to restore VMs from backups.
 ---
 
-= Deployment procedure for using FSx for ONTAP as an iSCSI datastore
+= Restore procedure VMs protected by SnapCenter Plug-in for VMware
 :hardbreaks:
 :nofooter:
 :icons: font
