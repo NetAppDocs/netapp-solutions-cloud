@@ -1,0 +1,127 @@
+---
+sidebar: sidebar
+permalink: vmware/evs-protect-fsxn-db.html
+keywords: Amazon, AWS, EVS, Elastic VMware Service, ONTAP, FSx, iscsi
+summary: This section covers the steps to protect databases running on VMware VMDKs with SnapCenter for SQL (SCSQL).
+---
+
+= Protection procedures for databases running on VMware VMDKs with SnapCenter for SQL (SCSQL)
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+The following section shows how to protect databases running on VMware VMDKs with SnapCenter for SQL (SCSQL). 
+
+== Setting up SCSQL
+
+The set up for using SCSQL to protect databases on VMDKs are as follows:
+
+. link:https://docs.netapp.com/us-en/snapcenter/install/task_install_the_snapcenter_server_using_the_install_wizard.html[Install and configure] SnapCenter Server.
+
+. Log in to SnapCenter.
+
+. Configure the SnapCenter environment:
++
+* link:https://docs.netapp.com/us-en/snapcenter/install/task_add_storage_systems.html[Add or assign] storage system connections.
++
+* link:https://docs.netapp.com/us-en/snapcenter/install/concept_svm_connections_and_credentials.html[Create] credentials.
+
+. For Microsoft SQL Server databases on VMware VMDKs:
++
+* link:https://docs.netapp.com/us-en/snapcenter/install/concept_svm_connections_and_credentials.html[Deploy SCV] (already covered in the setup section).
++
+* Register the plug-in with SnapCenter.
+
+. Add link:https://docs.netapp.com/us-en/snapcenter/protect-scsql/task_add_hosts_and_install_snapcenter_plug_ins_package_for_windows.html[SQL server hosts and install plug-ins]: 
++
+* link:https://docs.netapp.com/us-en/snapcenter/protect-scsql/task_add_hosts_and_install_snapcenter_plug_ins_package_for_windows.html[Configure the SQL plug-ins].
++
+* link:https://docs.netapp.com/us-en/snapcenter/protect-scsql/task_create_backup_policies_for_sql_server_databases.html[Configure the protection plan and schedules for database and logs].
++
+image:evs-protect-fsxn-027.png[Figure representing the dialog for the above step]
+
+== Setting up a backup policy
+
+The following steps will show how to set up a backup policy.
+
+. Select the database from the resource tab and select "Protect" from the upper-right corner.
++
+NOTE: Validations are performed against a SQL Server database running on the guest VM.
++
+image:evs-protect-fsxn-028.png[Figure representing the dialog for the above step]
+
+. Click on the plus sign icon to configure a SQL Server backup policy.
++
+image:evs-protect-fsxn-029.png[Figure representing the dialog for the above step]
+
+. In this demo, "Full backup" is selected. Select "Next" to continue.
++
+image:evs-protect-fsxn-030.png[Figure representing the dialog for the above step]
+
+. On the Summary page, select "Finish".
++
+image:evs-protect-fsxn-031.png[Figure representing the dialog for the above step]
+
+. Proceed to "Finish". 
++
+image:evs-protect-fsxn-032.png[Figure representing the dialog for the above step]
+
+
+== Monitoring a backup
+
+Once you have set up a backup policy, you can monitor your back up operations as they take place. You can do this either by clicking on Backup now to trigger an on-demand back up operation or by waiting for your scheduled backup policy to kick in.
+
+. Monitor the job progress using "Monitor > Jobs".
+
+. Select the backup job, and then click "Details" to view the job details as below.
++
+image:evs-protect-fsxn-033.png[Figure representing the dialog for the above step]
+
+== Restore of databases residing on the VMDKs
+
+The database on the VMDK can be restored to a specific point in time.
+
+We can simulate the importance of this by deleting some tables in your database which will then be corrected by performing a point-in-time restore. 
+
+Below you can see that several tables from our database shown in the first screenshot have been deleted in the second screenshot:
+
+image:evs-protect-fsxn-034.png[Figure representing the dialog for the above step]
+
+image:evs-protect-fsxn-035.png[Figure representing the dialog for the above step]
+
+The following steps show how to carry out a restoration to recover those deleted tables:
+
+. Select the database from the resource group.
++
+image:evs-protect-fsxn-036.png[Figure representing the dialog for the above step]
+
+. In the Restore page, select the option "Restore the database to the same host where the backup was created". 
++
+image:evs-protect-fsxn-037.png[Figure representing the dialog for the above step]
+
+. Select the option to use a log backup to a point in time. 
++
+image:evs-protect-fsxn-038.png[Figure representing the dialog for the above step]
+
+. Select "Overwrite database with same name during restore, Create transaction log backup before restore", and select "Next".
++
+image:evs-protect-fsxn-039.png[Figure representing the dialog for the above step]
+
+. Select the post-restore state you wish the database to assume from the list options and select "Next".
++
+image:evs-protect-fsxn-040.png[Figure representing the dialog for the above step]
+
+. On the summary page, select "Finish".
++
+image:evs-protect-fsxn-041.png[Figure representing the dialog for the above step]
+
+. Monitor the job to completion.
++
+image:evs-protect-fsxn-042.png[Figure representing the dialog for the above step]
+
+. Verify that the deleted tables have been successfully restored.
++
+image:evs-protect-fsxn-043.png[Figure representing the dialog for the above step]
