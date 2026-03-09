@@ -15,5 +15,5 @@ summary:
 [.lead]
 
 For details about protecting and migrating container workloads using Trident Protect, review the following section:
-- link:../openshift/os-dp-tp-solution.html[Protect Container apps using Trident Protect]
+- link:os-dp-tp-solution.html[Protect Container apps using Trident Protect]
 

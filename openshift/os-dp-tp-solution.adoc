@@ -24,7 +24,7 @@ Trident protect creates application snapshots and backups, which means not only 
 * any other S3 compatible storage
 
 Trident protect uses the Kubernetes model of role-based access control (RBAC). 
-By default, Trident rotect provides a single system namespace called trident-protect and its associated default service account. If you have an organization with many users or specific security needs, you can use the RBAC features of Trident protect to gain more granular control over access to resources and namespaces.
+By default, Trident protect provides a single system namespace called trident-protect and its associated default service account. If you have an organization with many users or specific security needs, you can use the RBAC features of Trident protect to gain more granular control over access to resources and namespaces.
 
 Additional information on RBAC in Trident protect can be found in the 
 link:https://docs.netapp.com/us-en/trident/trident-protect/manage-authorization-access-control.html[Trident protect documentation]

@@ -19,8 +19,8 @@ As users take their journey of modernizing their applications with Red Hat OpenS
 
 The requirements of data protection varies from reverting back to a point in time copy to automatically failing over to a different fault domain without any human intervention. Many customers pick ONTAP as their preferred storage platform for their Kubernetes applications because of its rich features like multitenancy, multi-protocol, high performance and capacity offerings, replication and caching for multi-site locations, security and flexibility.
 
-For details about protecting and migrating container workloads using Trident protect review the following section:
-- link:../openshift/os-dp-tp-solution.html[Protect Container apps using Trident Protect]
+For details about protecting and migrating container workloads using Trident Protect, review the following section:
+- link:os-dp-tp-solution.html[Protect Container apps using Trident Protect]
 
 == Business Continuity with MetroCluster 
 
