@@ -21,7 +21,7 @@ indexpage:
           url: ../openshift/os-op-solution.html
         - title: "Configure the environment"
           url: ../openshift/os-op-setup.html
-        - title: "Protect data using ACC"
+        - title: "Protect data using Trident Protect"
           url: ../openshift/os-op-data-protection.html
     - title: "Self-managed hybrid cloud workloads"
       links:
@@ -29,7 +29,7 @@ indexpage:
           url: ../openshift/os-sm-solution.html
         - title: "Configure the environment"
           url: ../openshift/os-sm-setup.html
-        - title: "Protect data using ACC"
+        - title: "Protect data using Trident Protect"
           url: ../openshift/os-sm-data-protection.html
     - title: "Provider-managed hybrid cloud workloads"
       links:
@@ -37,7 +37,7 @@ indexpage:
           url: ../openshift/os-pm-solution.html
         - title: "Configure the environment"
           url: ../openshift/os-pm-setup.html
-        - title: "Protect data using ACS"
+        - title: "Protect data using Trident Protect"
           url: ../openshift/os-pm-aws-dp.html
         - title: "Additional solutions"
           url: ../openshift/os-pm-rosa-additional.html
