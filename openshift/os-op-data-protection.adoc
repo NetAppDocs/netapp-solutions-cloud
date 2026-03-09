@@ -5,7 +5,7 @@ keywords: NetApp Solutions, redhat OpenShift, red hat OpenShift, redhat openshif
 summary:
 ---
 
-= Data protection using Astra
+= Data protection using Trident Protect
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -36,6 +36,6 @@ image:rhhc-onprem-dp-bc.png[Business Continuity Solution with MetroCluster]
 
 TIP: For Trident Backend Configuration (TBC), do not specify the dataLIF and SVM when using MetroCluster configuration. Specify SVM management IP for managementLIF and use vsadmin role credentials.
 
-Details on Trident Protect Data Protection features are available link:https://docs.netapp.com/us-en/astra-control-center/concepts/data-protection.html[here]
+Details on Trident Protect Data Protection features are available link:https://docs.netapp.com/us-en/trident/trident-protect/learn-about-trident-protect.html[here]
 
 // NetApp Solutions restructuring (jul 2025) - renamed from rhhc/rhhc-op-data-protection.adoc

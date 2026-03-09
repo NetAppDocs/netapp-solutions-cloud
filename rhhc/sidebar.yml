@@ -77,8 +77,8 @@ entries:
         url: /openshift/os-dp-velero-solution.html
       - title: "Install OADP"
         url: /openshift/os-dp-velero-installation.html
-      - title: "Backup container apps using Velero"
-        url: /openshift/os-dp-velero-backup.html
+      #- title: "Backup container apps using Velero"
+      #  url: /openshift/os-dp-velero-backup.html
       - title: "Migrate apps" 
         url: /openshift/os-dp-velero-migrate.html
       - title: "Restore from backup using Velero"
