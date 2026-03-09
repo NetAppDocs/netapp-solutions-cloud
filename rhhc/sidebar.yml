@@ -27,8 +27,8 @@ entries:
         url: /openshift/os-op-setup.html
       - title: "Protect container workloads on VMware"
         url: /openshift/os-op-data-protection.html
-      - title: "Migrate container workloads on VMware"
-        url: /openshift/os-op-data-migration.html
+      # - title: "Migrate container workloads on VMware"
+       #  url: /openshift/os-op-data-migration.html
 #        
   - title: "Hybrid cloud with self-managed components"
     pdf-filename: "Hybrid Cloud with Red Hat OpenShift Self-Managed Components (On-premises/AWS/GCP/Azure)"
@@ -43,8 +43,8 @@ entries:
         url: /openshift/os-sm-azure-setup.html
       - title: "Protect container workloads on AWS/GCP/Azure"
         url: /openshift/os-sm-data-protection.html
-      - title: "Migrate container workloads to AWS/GCP/Azure"
-        url: /openshift/os-sm-data-migration.html
+      # - title: "Migrate container workloads to AWS/GCP/Azure"
+      #   url: /openshift/os-sm-data-migration.html
  #         
   - title: "Hybrid cloud with provider-managed components"
     pdf-filename: "Hybrid Cloud with Red Hat OpenShift Provider-Managed Components"
@@ -57,8 +57,8 @@ entries:
         url: /openshift/os-pm-gcnv-setup.html
       - title: "Protect container workloads on AWS"
         url: /openshift/os-pm-aws-dp.html
-      - title: "Migrate container workloads on AWS"
-        url: /openshift/os-pm-aws-data-migration.html
+      # - title: "Migrate container workloads on AWS"
+      # url: /openshift/os-pm-aws-data-migration.html
       - title: "Additional ROSA solutions for containers and virtualization"
         url: /openshift/os-pm-rosa-additional.html
 #
