@@ -89,7 +89,7 @@ VMware ESXi, 8.0.2, 22380479
 on-premises and in Azure
 //
 .^| *NetApp Trident*
-^| Trident Server and Client and Astra Control Provisioner 23.10.0
+^| Trident Server and Client 23.10.0
 //
 .^| *NetApp Trident Protect*
 ^| Trident Protect 23.10
