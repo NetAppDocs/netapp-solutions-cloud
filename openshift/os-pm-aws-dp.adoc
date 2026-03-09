@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: openshift/os-pm-aws-dp.html
-keywords: NetApp Solutions, redhat OpenShift, red hat OpenShift, redhat openshift container platform, ocp, openshift container platform, Advanced Cluster Management, ACM, Hub Cluster, containers, container workloads, VMWare, provider managed storage, ONTAP, AWS FSx ONTAP
+keywords: NetApp Solutions, redhat OpenShift, red hat OpenShift, redhat openshift container platform, ocp, openshift container platform, Advanced Cluster Management, ACM, Hub Cluster, containers, container workloads, VMware, provider managed storage, ONTAP, AWS FSx ONTAP
 summary:
 ---
 
