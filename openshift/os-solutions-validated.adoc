@@ -28,12 +28,16 @@ For this solution, the following scenarios are tested and validated by NetApp. T
 == Scenario 1: Data protection and migration within the on-premises environment using Trident Protect 
 **On-premises: self-managed OpenShift clusters and self-managed NetApp storage** 
 
+* Use Trident Protect to protect applications and support migration between the on-premises clusters.
+
 === Scenario 1
 image:rhhc-on-premises.png["Figure showing input/output dialog or representing written content"]
  
 == Scenario 2: Data protection and migration from the on-premises environment to AWS environment using Trident Protect  
 **On-premises: Self-managed OpenShift cluster and self-managed storage**
 **AWS Cloud: Self-managed OpenShift cluster and self-managed storage**
+
+* Use Trident Protect to protect applications and support migration between the on-premises clusters and the self managed OpenShift clusters in AWS.
 
 === Scenario 2
 image:rhhc-self-managed-aws.png["Figure showing input/output dialog or representing written content"]
@@ -53,6 +57,8 @@ image:rhhc-rosa-with-fsxn.png["Figure showing input/output dialog or representin
 **On-premises: Self-managed OpenShift cluster and self-managed storage**
 **Google Cloud: Self-managed OpenShift cluster and self-managed storage ** 
  
+ * Use Trident Protect to protect applications and support migration between the on-premises and Google Cloud OpenShift clusters.
+
 image:rhhc-self-managed-gcp.png["Figure showing input/output dialog or representing written content"]
 
 For considerations when using ONTAP in a MetroCluster configuration, refer link:https://docs.netapp.com/us-en/ontap-metrocluster/install-stretch/concept_considerations_when_using_ontap_in_a_mcc_configuration.html[here].
@@ -60,6 +66,8 @@ For considerations when using ONTAP in a MetroCluster configuration, refer link:
 === Scenario 5: Data protection and migration from the on-premises environment to Azure environment using Trident Protect  
 **On-premises: Self-managed OpenShift cluster and self-managed storage**
 **Azure Cloud: Self-managed OpenShift cluster and self-managed storage ** 
+
+* Use Trident Protect to protect applications and support migration between the on-premises and OpenShift clusters in Azure.
 
 image:rhhc-self-managed-azure.png["Figure showing input/output dialog or representing written content"]
 
