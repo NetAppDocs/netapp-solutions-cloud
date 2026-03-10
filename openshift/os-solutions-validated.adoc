@@ -57,7 +57,7 @@ image:rhhc-rosa-with-fsxn.png["Figure showing input/output dialog or representin
 **On-premises: Self-managed OpenShift cluster and self-managed storage**
 **Google Cloud: Self-managed OpenShift cluster and self-managed storage ** 
  
- * Use Trident Protect to protect applications and support migration between the on-premises and Google Cloud OpenShift clusters.
+* Use Trident Protect to protect applications and support migration between the on-premises and Google Cloud OpenShift clusters.
 
 image:rhhc-self-managed-gcp.png["Figure showing input/output dialog or representing written content"]
 
