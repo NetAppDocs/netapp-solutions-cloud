@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: openshift/os-solutions-versions.html
-keywords: NetApp Solutions, hybrid cloud, container workloads, containers, Red Hat OpenShift, RedHat OpenShift, vmware, ROSA, ACC, Trident Protect, Advanced Cluster Management, ACM, Hub Cluster
+keywords: NetApp Solutions, hybrid cloud, container workloads, containers, Red Hat OpenShift, RedHat OpenShift, VMware, ROSA, Trident Protect, Advanced Cluster Management, ACM, Hub Cluster
 summary:
 ---
 
@@ -89,7 +89,7 @@ VMware ESXi, 8.0.2, 22380479
 on-premises and in Azure
 //
 .^| *NetApp Trident*
-^| Trident Server and Client and Astra Control Provisioner 23.10.0
+^| Trident Server and Client 23.10.0
 //
 .^| *NetApp Trident Protect*
 ^| Trident Protect 23.10
