@@ -13,5 +13,5 @@ summary:
 :imagesdir: ../media/
 
 [.lead]
-For details about protecting and migrating container workloads using Trident protect review the following section:
-- link:os-dp-tp-solution.html[Protect Container apps using Trident Protect]
+For details about protecting and migrating container workloads using Trident Protect, review the following section:
+- link:os-dp-tp-solution.html[Protect and migrate Container apps using Trident Protect]
