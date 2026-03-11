@@ -46,9 +46,9 @@ The bucket CR is known as AppVault in Trident Protect. AppVault objects are the 
 
 In this example, we will show the use of ONTAP S3 as Object storage.
 Here is the workflow for creating AppVault CR for ONTAP S3:
-1. Create S3 Object store server in the SVM in ONTAP Cluster.
-2. Create a bucket in the Object store Server.
-3. Create an S3 user in the SVM. Keep the access Key and the Secret Key in a safe location.
+1. Create an S3 object store server in the SVM in ONTAP Cluster.
+2. Create a bucket in the object store server.
+3. Create an S3 user in the SVM. Keep the access key and the secret key in a safe location.
 4. In OpenShift, create a secret to store the ONTAP S3 credentials.
 5. Create an AppVault object for ONTAP S3
 
