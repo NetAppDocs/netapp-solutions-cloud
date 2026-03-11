@@ -32,12 +32,12 @@ link:https://docs.netapp.com/us-en/trident/trident-protect/manage-authorization-
 NOTE: The cluster administrator has access to resources in the default trident-protect namespace and can also access resources in all other namespaces. Users cannot create application data management custom resource (CRs)  like Snapshot and Backup CRs in the trident-protect namespace. As a best practice, users will need to create those CRs in the application namespace.
 
 Trident Protect can be installed using the instructions provided in the documentation link:https://docs.netapp.com/us-en/trident/trident-protect/trident-protect-installation.html[here]. This section will show the workflow for the data protection of container applications and restoration of the applications using Trident Protect.
-1.	Snapshot creation (on demand on scheduled)
+1.	Snapshot creation (on demand or scheduled)
 2.	Restore from Snapshot (restore to same and different namespace)
 3.	Backup creation
 4.	Restore from Backup
 
-.Pre-requisite
+.Prerequisite
 [%collapsible%open]
 
 ====
