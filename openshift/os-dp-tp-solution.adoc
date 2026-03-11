@@ -44,9 +44,9 @@ Trident Protect can be installed using the instructions provided in the document
 Prior to creating the snapshots and backups for an application, object storage must be configured in Trident Protect to store the snapshots and backups. This is done using the bucket CR. Only administrators can create a bucket CR and configure it. 
 The bucket CR is known as AppVault in Trident Protect. AppVault objects are the declarative Kubernetes workflow representation of a storage bucket. An AppVault CR contains the configurations necessary for a bucket to be used in protection operations, such as backups, snapshots, restore operations, and SnapMirror replication. 
 
-In this example, we will show the use of ONTAP S3 as Object storage.
+In this example, we will show the use of ONTAP S3 as object storage.
 Here is the workflow for creating AppVault CR for ONTAP S3:
-1. Create an S3 object store server in the SVM in ONTAP Cluster.
+1. Create an S3 object store server in the SVM in ONTAP cluster.
 2. Create a bucket in the object store server.
 3. Create an S3 user in the SVM. Keep the access key and the secret key in a safe location.
 4. In OpenShift, create a secret to store the ONTAP S3 credentials.

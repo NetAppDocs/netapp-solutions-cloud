@@ -31,7 +31,7 @@ Trident Protect enables snapshots, backups, restores, and disaster recovery of a
 * link:https://docs.netapp.com/us-en/trident/trident-protect/trident-protect-installation.html[Trident Protect 25.02]
 * link:https://docs.netapp.com/us-en/ontap/[ONTAP 9.16] 
 
-== Create AppVault for Object storage
+== Create AppVault for object storage
 
 .Create AppVault
 [%collapsible%open]
