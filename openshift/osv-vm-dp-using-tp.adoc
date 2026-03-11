@@ -36,7 +36,7 @@ Trident Protect enables snapshots, backups, restores, and disaster recovery of a
 .Create AppVault
 [%collapsible%open]
 ====
-Prior to creating the snapshots and backups for an application or a VM, an Object storage must be configured in Trident Protect to store the snapshots and backups. This is done using the bucket CR. Only administrators can create a bucket CR and configure it. 
+Prior to creating the snapshots and backups for an application or a VM, Object storage must be configured in Trident Protect to store the snapshots and backups. This is done using the bucket CR. Only administrators can create a bucket CR and configure it. 
 The bucket CR is known as AppVault in Trident Protect. AppVault objects are the declarative Kubernetes workflow representation of a storage bucket. An AppVault CR contains the configurations necessary for a bucket to be used in protection operations, such as backups, snapshots, restore operations, and SnapMirror replication. 
 
 In this example, we will show the use of ONTAP S3 as Object storage.
