@@ -19,9 +19,9 @@ Trident Protect creates application snapshots and backups. This means that snaps
 * AWS S3           
 * Azure Blob storage    
 * Google Cloud Storage          
-* Ontap S3       
+* ONTAP S3       
 * StorageGrid 
-* any other S3 compatible storage
+* any other S3-compatible storage
 
 Trident Protect uses the Kubernetes model of role-based access control (RBAC). 
 By default, Trident Protect provides a single system namespace called trident-protect and its associated default service account. If you have an organization with many users or specific security needs, you can use the RBAC features of Trident Protect to gain more granular control over access to resources and namespaces.
