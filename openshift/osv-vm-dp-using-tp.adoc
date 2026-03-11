@@ -17,7 +17,7 @@ Protect VMs in OpenShift Virtualization using snapshots and backups. This proced
 
 Virtual machines in the OpenShift Virtualization environment are containerized applications that run in the worker nodes of your OpenShift Container platform. It is important to protect the VM metadata as well as the persistent disks of the VMs, so that when they are lost or corrupted, you can recover them. 
 
-The persistent disks of the OpenShift Virtualization VMs can be backed by ONTAP storage integrated to the OpenShift Cluster using link:https://docs.netapp.com/us-en/trident/[Trident CSI]. In this section we use link:https://docs.netapp.com/us-en/trident/trident-protect/learn-about-trident-protect.html[Trident Protect] to create snapshots and backups of VMs including their data volumes to ONTAP Object Storage.
+The persistent disks of the OpenShift Virtualization VMs can be backed by ONTAP storage integrated to the OpenShift Cluster using link:https://docs.netapp.com/us-en/trident/[Trident CSI]. In this section we use link:https://docs.netapp.com/us-en/trident/trident-protect/learn-about-trident-protect.html[Trident Protect] to create snapshots and backups of VMs including their data volumes to ONTAP Object storage.
 
 We then restore from a snapshot or a backup when needed. 
 
@@ -31,7 +31,7 @@ Trident Protect enables snapshots, backups, restores, and disaster recovery of a
 * link:https://docs.netapp.com/us-en/trident/trident-protect/trident-protect-installation.html[Trident Protect 25.02]
 * link:https://docs.netapp.com/us-en/ontap/[ONTAP 9.16] 
 
-== Create App Vault for Object storage
+== Create AppVault for Object storage
 
 .Create AppVault
 [%collapsible%open]
@@ -41,11 +41,11 @@ The bucket CR is known as AppVault in Trident Protect. AppVault objects are the 
 
 In this example, we will show the use of ONTAP S3 as Object storage.
 Here is the workflow for creating AppVault CR for ONTAP S3:
-1.	Create S3 Object store server in the SVM in ONTAP Cluster.
-2.	Create a bucket in the Object store Server.
-3.	Create an S3 user in the SVM. Keep the access Key and the Secret Key in a safe location.
-4.	In OpenShift, create a secret to store the ONTAP S3 credentials.
-5.	Create an AppVault object for ONTAP S3
+1. Create S3 Object store server in the SVM in ONTAP Cluster.
+2. Create a bucket in the Object store Server.
+3. Create an S3 user in the SVM. Keep the access Key and the Secret Key in a safe location.
+4. In OpenShift, create a secret to store the ONTAP S3 credentials.
+5. Create an AppVault object for ONTAP S3
 
 **Configure Trident Protect AppVault for ONTAP S3**
 
