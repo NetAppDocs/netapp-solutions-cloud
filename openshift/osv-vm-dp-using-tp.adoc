@@ -138,7 +138,7 @@ image:rh-os-n-use-case-ocpv-tp-dp-007.png[vm, pods and pvc created]
 ====
 **Create a Trident Protect app for the VM**
 
-In the example, the demo namespace has one VM and all resources of the namespace is included when creating the app.
+In the example, the demo namespace has one VM and all resources of the namespace are included when creating the app.
 
 [source,yaml]
 ....
