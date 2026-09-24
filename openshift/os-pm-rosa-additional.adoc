@@ -26,7 +26,7 @@ For Red Hat OpenShift Container solutions, see link:https://docs.netapp.com/us-e
 
 //For Red Hat OpenShift Service on AWS with FSxN Container solutions , see #link:https://docs.netapp.com/us-en/netapp-solutions-containers/openshift/os-rosa-solution-overview.html[here^].
 
-For Red Hat OpenShift Virtualization solutions on premises, see link:https://docs.netapp.com/us-en/netapp-solutions-virtualization/openshift/osv-deployment-prerequisites.html[here^].
+For Red Hat OpenShift Virtualization solutions on premises, see link:https://docs.netapp.com/us-en/netapp-solutions-virtualization/openshift/osv-storage-getting-started.html[here^].
 
 //For Red Hat OpenShift Service Virtualization on AWS with FSxN solutions, #see link:https://docs.netapp.com/us-en/netapp-solutions-virtualization/openshift/osv-rosa-overview.html[here^]. 
 
