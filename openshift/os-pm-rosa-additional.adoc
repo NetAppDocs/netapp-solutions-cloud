@@ -19,7 +19,6 @@ summary:
 
 [.lead]
 
- 
 See the following additional solutions:
 
 - link:https://docs.netapp.com/us-en/netapp-solutions-containers/openshift/os-solution-overview.html[Red Hat OpenShift Container solution on-premises^]
