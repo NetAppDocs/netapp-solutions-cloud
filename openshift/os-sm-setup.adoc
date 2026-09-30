@@ -55,7 +55,7 @@ NOTE: The connector can also be installed in the cloud environment. Refer link:h
 [%collapsible%open]
 ====
 * Deploy Trident Operator using Helm.
-Refer to instructions link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-helm.html[here]
+Refer to instructions link:https://docs.netapp.com/us-en/trident/trident-install/kubernetes-deploy-helm.html[here]
 
 * Create a  backend and a storage class. Refer to instructions link:https://docs.netapp.com/us-en/trident/trident-use/backends.html[here]. 
 ====

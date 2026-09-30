@@ -82,7 +82,7 @@ Refer to the instructions link:https://access.redhat.com/documentation/en-us/red
 ====
 
 * Install NetApp Trident on all three clusters: Hub, source, and destination clusters
-* Refer to the instructions link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html[here].
+* Refer to the instructions link:https://docs.netapp.com/us-en/trident/trident-install/kubernetes-deploy-operator.html[here].
 * Create a storage backend for ontap-nas .
 * Create a storage class for ontap-nas.
 * Refer to instructions link:https://docs.netapp.com/us-en/trident/trident-use/create-stor-class.html[here].

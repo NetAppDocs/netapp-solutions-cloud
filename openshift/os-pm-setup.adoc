@@ -41,7 +41,7 @@ Refer link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/getting-started-ste
 .Install Trident on ROSA clusters (using Helm chart)
 
 * Use Helm chart to install Trident on ROSA clusters. 
-Refer to the documentation link: https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-helm.html[here].
+Refer to the documentation link: https://docs.netapp.com/us-en/trident/trident-install/kubernetes-deploy-helm.html[here^].
 
 .Integration of FSx ONTAP with Trident for ROSA clusters
 video::621ae20d-7567-4bbf-809d-b01200fa7a68[panopto, title="Integration of FSx ONTAP with Trident for ROSA clusters"]
@@ -69,9 +69,9 @@ Open the console of Argo CD and deploy an app.
 As an example, you can deploy a Jenkins App using Argo CD with a Helm Chart.
 When creating the application, the following details were provided:
 Project: default
-cluster: 'https://kubernetes.default.svc' (without the quotes)
+cluster: +'https://kubernetes.default.svc'+ (without the quotes)
 Namespace: Jenkins
-The url for the Helm Chart: 'https://charts.bitnami.com/bitnami' (without the quotes)
+The url for the Helm Chart: +'https://charts.bitnami.com/bitnami'+ (without the quotes)
 
 Helm Parameters:
 global.storageClass: fsxn-nas
