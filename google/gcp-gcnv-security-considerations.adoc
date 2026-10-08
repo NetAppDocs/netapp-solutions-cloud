@@ -156,7 +156,7 @@ All backup data of a project is stored within a GCS bucket, which is managed by 
 
 Data transport from a Google Cloud NetApp Volumes bucket to GCS uses service-internal Google networks with HTTPS and TLS1.2. Data is encrypted at-rest with Google-managed keys.
 
-To manage Google Cloud NetApp Volumes backup (creating, deleting, and restoring backups), a user must have the https://cloud.google.com/architecture/partners/netapp-cloud-volumes/security-considerations?hl=en_US[roles/netapp.admin^] role.
+To manage Google Cloud NetApp Volumes backup (creating, deleting, and restoring backups), a user must have the https://docs.cloud.google.com/netapp/volumes/docs/plan-and-prepare/iam[roles/netapp.admin^] role.
 
 
 // NetApp Solutions restructuring (jul 2025) - renamed from ehc/ncvs-gc-security-considerations-and-attack-surfaces.adoc
