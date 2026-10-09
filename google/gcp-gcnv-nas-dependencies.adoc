@@ -59,7 +59,7 @@ For NFS Kerberos machine accounts, password resets take place only when a new ke
 
 == Network ports for use with LDAP and Kerberos
 
-When using LDAP and Kerberos, you should determine the network ports in use by these services. You can find a complete list of ports in use by Google Cloud NetApp Volumes in the https://cloud.google.com/architecture/partners/netapp-cloud-volumes/security-considerations?hl=en_US[Google Cloud NetApp Volumes documentation on security considerations^].
+When using LDAP and Kerberos, you should determine the network ports in use by these services. You can find a complete list of ports in use by Google Cloud NetApp Volumes in the https://docs.cloud.google.com/netapp/volumes/docs/plan-and-prepare/security-considerations[Google Cloud NetApp Volumes documentation on security considerations^].
 
 == LDAP
 
@@ -333,7 +333,7 @@ You can configure Active Directory DNS to restrict which servers can update DNS 
 
 Note that resources within a Google project default to using Google Cloud DNS, which isn't connected with Active Directory DNS. Clients using Cloud DNS cannot resolve UNC paths returned by Google Cloud NetApp Volumes. Windows clients joined to the Active Directory domain are configured to use Active Directory DNS and can resolve such UNC paths.
 
-To join a client to Active Directory, you must configure its DNS configuration to use Active Directory DNS. Optionally, you can configure Cloud DNS to forward requests to Active Directory DNS. See https://cloud.google.com/architecture/partners/netapp-cloud-volumes/faqs-netapp[Why can't my client resolve the SMB NetBIOS name? ^]for more information.
+To join a client to Active Directory, you must configure its DNS configuration to use Active Directory DNS. Optionally, you can configure Cloud DNS to forward requests to Active Directory DNS. See https://docs.cloud.google.com/netapp/volumes/docs/configure-and-use/active-directory/about-ad[Why can't my client resolve the SMB NetBIOS name? ^]for more information.
 
 [NOTE]
 Google Cloud NetApp Volumes does not currently support DNSSEC and DNS queries are performed in plaintext.
