@@ -62,7 +62,7 @@ image:rhhc-default-storage-class.png["Figure showing input/output dialog or repr
 .Deploy an application using OpenShift GitOps (Argo CD)
 * Install OpenShift GitOps operator on the cluster. Refer to instructions link:https://docs.openshift.com/container-platform/4.10/cicd/gitops/installing-openshift-gitops.html[here].
 
-* SetUp a new Argo CD instance for the cluster. Refer to instructions link:https://docs.redhat.com/en/documentation/openshift_container_platform/4.10/html/cicd/gitops#gitops-argo-cd-installation_setting-up-argocd-instance [here^].
+* SetUp a new Argo CD instance for the cluster. Refer to instructions link:https://docs.redhat.com/en/documentation/openshift_container_platform/4.10/html/cicd/gitops#gitops-argo-cd-installation_setting-up-argocd-instance[here^].
 
 
 Open the console of Argo CD and deploy an app.  
