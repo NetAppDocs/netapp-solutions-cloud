@@ -59,7 +59,7 @@ allowVolumeExpansion: true
 
 .Deploy an application using OpenShift GitOps (Argo CD)
 
-* Install OpenShift GitOps operator on the cluster. Refer to instructions link:https://docs.openshift.com/gitops/1.13/installing_gitops/installing-openshift-gitops.html[here].
+* Install OpenShift GitOps operator on the cluster. Refer to instructions link:https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.13/html/installing_gitops/index[here^].
 * SetUp a new Argo CD instance for the cluster. Refer to instructions link:https://docs.openshift.com/gitops/1.13/argocd_instance/setting-up-argocd-instance.html[here].
 
 Open the console of Argo CD and deploy an app.
