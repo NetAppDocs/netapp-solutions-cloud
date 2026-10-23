@@ -38,7 +38,7 @@ The setup process can be broken down into the following steps:
 [%collapsible%open]
 ====
 
-Refer to the instructions for the link:https://docs.openshift.com/container-platform/4.17/installing/installing_vsphere/installing-vsphere-assisted-installer.html[Assisted deployment] method to deploy an OCP cluster.
+Refer to the instructions for the link:https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/installing_on_vmware_vsphere/installing-vsphere-assisted-installer[Assisted deployment^] method to deploy an OCP cluster.
 
 TIP: Remember the following:
 - Create ssh public and private key to provide to the installer. These keys will be used to login to the master and worker nodes if needed.
