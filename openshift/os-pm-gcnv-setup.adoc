@@ -24,7 +24,7 @@ The setup process can be broken down into the following steps:
 .Install OSD clusters in Google Cloud
 
 * If you wish to use an existing VPC for the cluster, you must create the VPC, two subnets, a cloud router, and two GCP cloud NATs for the OSD cluster. Refer link:https://cloud.redhat.com/experts/gcp/osd_preexisting_vpc/[here] for instructions. 
-* Refer link:https://docs.openshift.com/dedicated/osd_install_access_delete_cluster/creating-a-gcp-cluster.html#osd-create-gcp-cluster-ccs_osd-creating-a-cluster-on-gcp[here] for instructions to install OSD clusters on GCP using the Customer Cloud Subscription (CCS) billing model. OSD is also included on Google Cloud Marketplace. A video showing how to install OSD using the Google Cloud Marketplace solution is located link:https://www.youtube.com/watch?v=p9KBFvMDQJM[here]. 
+* Refer link:https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/openshift_dedicated_clusters_on_google_cloud/index#osd-create-gcp-cluster-ccs_osd-creating-a-cluster-on-gcp[here^] for instructions to install OSD clusters on GCP using the Customer Cloud Subscription (CCS) billing model. OSD is also included on Google Cloud Marketplace. A video showing how to install OSD using the Google Cloud Marketplace solution is located link:https://www.youtube.com/watch?v=p9KBFvMDQJM[here]. 
 
 .Enable Google Cloud NetApp Volumes
 
@@ -60,7 +60,7 @@ allowVolumeExpansion: true
 .Deploy an application using OpenShift GitOps (Argo CD)
 
 * Install OpenShift GitOps operator on the cluster. Refer to instructions link:https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.13/html/installing_gitops/index[here^].
-* SetUp a new Argo CD instance for the cluster. Refer to instructions link:https://docs.openshift.com/gitops/1.13/argocd_instance/setting-up-argocd-instance.html[here].
+* SetUp a new Argo CD instance for the cluster. Refer to instructions link:https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.13/html/argo_cd_instance/setting-up-argocd-instance[here^].
 
 Open the console of Argo CD and deploy an app.
 As an example, you can deploy a Jenkins App using Argo CD with a Helm Chart.
