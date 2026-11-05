@@ -25,7 +25,7 @@ The setup process can be broken down into the following steps:
 
 .Install an OCP cluster on GCP from the CLI
 
-* Ensure that you have met all the prerequisites stated link:https://docs.openshift.com/container-platform/4.13/installing/installing_gcp/installing-gcp-default.html[here]. 
+* Ensure that you have met all the prerequisites stated link:https://docs.redhat.com/en/documentation/openshift_container_platform/4.13/html/installing_on_google_cloud/index#installing-gcp-default[here^]. 
 
 * For the VPN connectivity between on-premises and GCP, a pfsense VM was created and configured. For instructions, see https://docs.netgate.com/pfsense/en/latest/recipes/ipsec-s2s-psk.html[here].
 
@@ -37,7 +37,7 @@ The setup process can be broken down into the following steps:
 
 * Now install the OpenShift cluster on GCP.
 
-** Obtain the installation program and the pull secret and deploy the cluster following the steps provided  in the documentation https://docs.openshift.com/container-platform/4.13/installing/installing_gcp/installing-gcp-default.html[here].
+** Obtain the installation program and the pull secret and deploy the cluster following the steps provided  in the documentation https://docs.redhat.com/en/documentation/openshift_container_platform/4.13/html/installing_on_google_cloud/index#installing-gcp-default[here^].
 
 ** The installation creates a VPC network in Google Cloud Platform. It also creates a private zone in Cloud DNS and adds A records.
 
