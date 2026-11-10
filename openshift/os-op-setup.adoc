@@ -63,7 +63,7 @@ Refer to the instructions link:https://access.redhat.com/documentation/en-us/red
 [%collapsible%open]
 ====
 * The additional clusters can be deployed using the ACM on the Hub Cluster.
-* Refer to the instructions link:https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_management_for_kubernetes/2.7/html/clusters/cluster_mce_overview#vsphere_prerequisites[here].
+* Refer to the instructions link:https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_management_for_kubernetes/2.7/html/clusters/cluster_mce_overview#vsphere_prerequisites[here^].
 
 ====
 
