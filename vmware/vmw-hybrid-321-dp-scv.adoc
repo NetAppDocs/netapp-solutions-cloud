@@ -516,7 +516,7 @@ NOTE: The SnapMirror Label entered here is used to identify which backups to app
 =====
 The final step is to activate data protection for the individual datastores and virtual machines. The following steps outline how to activate backups to AWS.
 
-For more information refer to https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-backup.html[Back up VMware workloads].
+For more information refer to https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-backup.html[Back up VMware workloads^].
 
 . From the NetApp Backup and Recovery for Virtual Machines main page, access the settings drop down for the datastore to be backed up and select *Activate Backup*. 
 +
@@ -584,7 +584,7 @@ image:bxp-scv-hybrid-035.png[Choose primary or secondary]
 ==== Restoring Virtual Machines from NetApp Backup and Recovery for Virtual Machines
 NetApp Backup and Recovery for Virtual Machines allows restores of virtual machines to their original location. Restore functions are accessed through the NetApp Backup and Recovery web console.
 
-For more information refer to https://docs.netapp.com/us-en/data-services-backup-recovery/prev-vmware-restore.html[Restore virtual machines data from the cloud].
+For more information refer to https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html[Restore virtual machines data from the cloud^].
 
 .Restore virtual machines from NetApp Backup and Recovery
 [%collapsible%open]

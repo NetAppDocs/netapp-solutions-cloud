@@ -59,7 +59,7 @@ For NFS Kerberos machine accounts, password resets take place only when a new ke
 
 == Network ports for use with LDAP and Kerberos
 
-When using LDAP and Kerberos, you should determine the network ports in use by these services. You can find a complete list of ports in use by Google Cloud NetApp Volumes in the https://cloud.google.com/architecture/partners/netapp-cloud-volumes/security-considerations?hl=en_US[Google Cloud NetApp Volumes documentation on security considerations^].
+When using LDAP and Kerberos, you should determine the network ports in use by these services. You can find a complete list of ports in use by Google Cloud NetApp Volumes in the https://docs.cloud.google.com/netapp/volumes/docs/plan-and-prepare/security-considerations[Google Cloud NetApp Volumes documentation on security considerations^].
 
 == LDAP
 
@@ -67,7 +67,7 @@ Google Cloud NetApp Volumes acts as an LDAP client and uses standard LDAP search
 
 To use Active Directory as a UNIX LDAP server, you must populate the necessary UNIX attributes on users and groups you intend to use for UNIX identities. Google Cloud NetApp Volumes uses a default LDAP schema template that queries attributes based on https://tools.ietf.org/id/draft-howard-rfc2307bis-01.txt[RFC-2307-bis^]. As a result, the following table shows the bare minimum necessary Active Directory attributes to populate for users and groups and what each attribute is used for.
 
-For more information about setting LDAP attributes in Active Directory, see https://cloud.google.com/architecture/partners/netapp-cloud-volumes/managing-dual-protocol-access[Managing dual-protocol access.^]
+For more information about setting LDAP attributes in Active Directory, see https://docs.cloud.google.com/netapp/volumes/docs/configure-and-use/active-directory/ad-ldap-access[Managing dual-protocol access.^]
 
 |===
 |Attribute |What it does
@@ -333,7 +333,7 @@ You can configure Active Directory DNS to restrict which servers can update DNS 
 
 Note that resources within a Google project default to using Google Cloud DNS, which isn't connected with Active Directory DNS. Clients using Cloud DNS cannot resolve UNC paths returned by Google Cloud NetApp Volumes. Windows clients joined to the Active Directory domain are configured to use Active Directory DNS and can resolve such UNC paths.
 
-To join a client to Active Directory, you must configure its DNS configuration to use Active Directory DNS. Optionally, you can configure Cloud DNS to forward requests to Active Directory DNS. See https://cloud.google.com/architecture/partners/netapp-cloud-volumes/faqs-netapp[Why can't my client resolve the SMB NetBIOS name? ^]for more information.
+To join a client to Active Directory, you must configure its DNS configuration to use Active Directory DNS. Optionally, you can configure Cloud DNS to forward requests to Active Directory DNS. See https://docs.cloud.google.com/netapp/volumes/docs/configure-and-use/active-directory/about-ad[Why can't my client resolve the SMB NetBIOS name? ^]for more information.
 
 [NOTE]
 Google Cloud NetApp Volumes does not currently support DNSSEC and DNS queries are performed in plaintext.

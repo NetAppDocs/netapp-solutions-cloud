@@ -21,7 +21,7 @@ summary: Google Cloud NetApp Volumes for Google Cloud leverages the Google Cloud
 [.lead]
 Google Cloud NetApp Volumes for Google Cloud leverages the Google Cloud https://cloud.google.com/vpc/docs/configure-private-services-access[private services access^] framework. In this framework, users can connect to the Google Cloud NetApp Volumes. This framework uses Service Networking and VPC peering constructs like other Google Cloud services, ensuring complete isolation between tenants.
 
-For an architecture overview of Google Cloud NetApp Volumes for Google Cloud, see https://cloud.google.com/architecture/partners/netapp-cloud-volumes/architecture[Architecture for Google Cloud NetApp Volumes^].
+For an architecture overview of Google Cloud NetApp Volumes for Google Cloud, see https://docs.cloud.google.com/netapp/volumes/docs/discover/overview#netapp_volumes_architecture[Architecture for Google Cloud NetApp Volumes^].
 
 User VPCs (standalone or shared) are peered to VPCs within Google Cloud NetApp Volumes managed tenant projects, which hosts the volumes.
 

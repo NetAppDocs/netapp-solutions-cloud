@@ -20,7 +20,7 @@ summary: Google Cloud NetApp Volumes offers the ability to share the same datase
 //
 
 [.lead]
-Google Cloud NetApp Volumes offers the ability to share the same datasets to both SMB and NFS clients while maintaining proper access permissions (https://cloud.google.com/architecture/partners/netapp-cloud-volumes/managing-dual-protocol-access[dual-protocol^]). This is done by coordinating identity mapping between protocols and using a centralized backend LDAP server to provide the UNIX identities to Google Cloud NetApp Volumes. You can use Windows Active Directory to provide both Windows and UNIX users for ease of use.
+Google Cloud NetApp Volumes offers the ability to share the same datasets to both SMB and NFS clients while maintaining proper access permissions (https://docs.cloud.google.com/netapp/volumes/docs/configure-and-use/active-directory/ad-ldap-access[dual-protocol^]). This is done by coordinating identity mapping between protocols and using a centralized backend LDAP server to provide the UNIX identities to Google Cloud NetApp Volumes. You can use Windows Active Directory to provide both Windows and UNIX users for ease of use.
 
 == Access control
 
@@ -37,7 +37,7 @@ For example, if a Windows user named `joe` attempts access to a volume with UNIX
 
 Alternately, if a UNIX user named `joe` attempts access to a Google Cloud NetApp Volumes volume with Windows permissions, then the UNIX user must be able to map to a valid Windows user. Otherwise, access to the volume is denied.
 
-Currently, only Active Directory is supported for external UNIX identity management with LDAP. For more information about configuring access to this service, see https://cloud.google.com/architecture/partners/netapp-cloud-volumes/creating-smb-volumes[Creating an AD connection^].
+Currently, only Active Directory is supported for external UNIX identity management with LDAP. For more information about configuring access to this service, see https://docs.cloud.google.com/netapp/volumes/docs/configure-and-use/active-directory/create-ad-policy[Creating an AD connection^].
 
 == Permission model
 

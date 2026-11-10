@@ -33,9 +33,9 @@ The setup process can be broken down into the following steps:
 * Create 3 private subnets in 3 different AZs.
 * Create a Route 53 private hosted zone and a DNS resolver for the VPC.
 
-Create OpenShift Cluster on AWS from the Advanced Cluster Management (ACM) Wizard. Refer to instructions link:https://docs.openshift.com/dedicated/osd_install_access_delete_cluster/creating-an-aws-cluster.html[here].
+Create OpenShift Cluster on AWS from the Advanced Cluster Management (ACM) Wizard. Refer to instructions link:https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/openshift_dedicated_clusters_on_aws/osd-creating-a-cluster-on-aws[here^].
 
-NOTE: You can also create the cluster in AWS from the OpenShift Hybrid Cloud console. Refer link:https://docs.openshift.com/container-platform/4.10/installing/installing_aws/installing-aws-default.html[here] for instructions. 
+NOTE: You can also create the cluster in AWS from the OpenShift Hybrid Cloud console. Refer link:https://docs.redhat.com/en/documentation/openshift_container_platform/4.10/html/installing/installing-on-aws[here^] for instructions. 
 
 TIP: When creating the cluster using the ACM, you have the ability to customize the installation by editing the yaml file after filling in the details in the form view. After the cluster is created, you can ssh login to the nodes of the cluster for troubleshooting or additional manual configuration. Use the ssh key you provided during installation and the username core to login.
 
@@ -55,7 +55,7 @@ NOTE: The connector can also be installed in the cloud environment. Refer link:h
 [%collapsible%open]
 ====
 * Deploy Trident Operator using Helm.
-Refer to instructions link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-helm.html[here]
+Refer to instructions link:https://docs.netapp.com/us-en/trident/trident-install/kubernetes-deploy-helm.html[here]
 
 * Create a  backend and a storage class. Refer to instructions link:https://docs.netapp.com/us-en/trident/trident-use/backends.html[here]. 
 ====

@@ -48,11 +48,11 @@ The username and password that is passed to the Active Directory domain leverage
 
 == Active Directory connection details
 
-The https://cloud.google.com/architecture/partners/netapp-cloud-volumes/creating-smb-volumes[Active Directory Connection Details^] provide fields for administrators to give specific Active Directory schema information for machine account placement, such as the following:
+The https://docs.cloud.google.com/netapp/volumes/docs/configure-and-use/active-directory/about-ad[Active Directory Connection Details^] provide guidance for administrators to give specific Active Directory schema information for machine account placement, such as the following:
 
 * *Active Directory Connection Type.* Used to specify whether the Active Directory connection in a region is used for volumes of either Google Cloud NetApp Volumes or NetApp Volumes-Performance service type. If this is set incorrectly on an existing connection, it might not work properly when used or edited.
 * *Domain.* The Active Directory domain name.
-* *Site.* Limits Active Directory servers to a specific site for security and performance https://cloud.google.com/architecture/partners/netapp-cloud-volumes/managing-active-directory-connections[considerations^]. This is necessary when multiple Active Directory servers span regions because Google Cloud NetApp Volumes does not currently support allowing Active Directory authentication requests to Active Directory servers in a different region than the Google Cloud NetApp Volumes instance. (For instance, the Active Directory domain controller is in a region that only NetApp Volumes-Performance supports but you want an SMB share in a NetApp Volumes-SW instance.)
+* *Site.* Limits Active Directory servers to a specific site for security and performance https://docs.cloud.google.com/compute/docs/instances/windows/best-practices[considerations^]. This is necessary when multiple Active Directory servers span regions because Google Cloud NetApp Volumes does not currently support allowing Active Directory authentication requests to Active Directory servers in a different region than the Google Cloud NetApp Volumes instance. (For instance, the Active Directory domain controller is in a region that only NetApp Volumes-Performance supports but you want an SMB share in a NetApp Volumes-SW instance.)
 * *DNS servers.* DNS servers to use in name lookups.
 * *NetBIOS name (optional).* If desired, the NetBIOS name for the server. This what is used when new machine accounts are created using the Active Directory connection. For instance, if the NetBIOS name is set to NetApp Volumes-EAST then the machine account names will be NetApp Volumes-EAST-{1234}. See the section link:gcp-gcnv-ad-connections.html#how-cloud-volumes-service-shows-up-in-active-directory["How Google Cloud NetApp Volumes shows up in Active Directory"] for more information.
 * *Organizational Unit (OU).* The specific OU to create the computer account. This is useful if you're delegating control to a user for machine accounts to a specific OU.
@@ -130,7 +130,7 @@ If you want to disable weaker Kerberos encryption types (enctype) on the machine
 
 To enable AES encryption for SMB machine accounts, click Enable AES Encryption for AD Authentication when creating the Active Directory connection.
 
-To enable AES encryption for NFS Kerberos, https://cloud.google.com/architecture/partners/netapp-cloud-volumes/creating-nfs-volumes[see the Google Cloud NetApp Volumes documentation^].
+To enable AES encryption for NFS Kerberos, https://docs.cloud.google.com/netapp/volumes/docs/plan-and-prepare/security-considerations[see the Google Cloud NetApp Volumes documentation^].
 
 
 // NetApp Solutions restructuring (jul 2025) - renamed from ehc/ncvs-gc-considerations-creating-active-directory-connections.adoc

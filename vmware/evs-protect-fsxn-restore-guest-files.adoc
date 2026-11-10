@@ -1,0 +1,51 @@
+---
+sidebar: sidebar
+permalink: vmware/evs-protect-fsxn-restore-guest-files.html
+keywords: Amazon, AWS, EVS, Elastic VMware Service, ONTAP, FSx, iscsi
+summary: This section covers the steps to restore guest files and folders protected by SnapCenter Plug-in for VMware.
+---
+
+= Restore procedure for guest files and folders protected by SnapCenter Plug-in for VMware
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+The following section shows how to restore guest files and folders from VMDKs.
+
+NOTE: SnapCenter supports file and folder restoration from VMDKs only when the guest operating system is Windows.
+
+Considerations for guest file and folder restoration with SCV:
+
+* VMware tools must be running on the VM.
+* The attached VMDK is accessible for 24 hours by default.
+* Only one restore or attach operation can be performed on a virtual machine at a time.
+* System, hidden, and encrypted files can be restored; however, their original attributes will not be preserved.
+* Avoid restoring encrypted files to encrypted folders or overwriting system files.
+
+Steps for the guest file and folder restoration:
+
+. Right-click the target VM and select "NetApp SnapCenter > Guest File Restore".
++
+image:evs-protect-fsxn-022.png[Figure representing the dialog for the above step]
+
+. Choose the backup containing the required VMDK. Specify the VMDK and its location (primary or secondary).
++
+image:evs-protect-fsxn-023.png[Figure representing the dialog for the above step]
+
+. Choose "Disk Attachment Method".
++
+image:evs-protect-fsxn-024.png[Figure representing the dialog for the above step]
++
+* Guest VM Option: Attach the disk to the original VM (requires pre-configured credentials). This is the option used in this demonstration.
++
+* Proxy VM Option: Attach the disk to a designated proxy VM (must be configured in advance).
+
+. Wait for the attach operation to finish before browsing and restoring files. Once the operation completes, SnapCenter automatically creates a guest file restore session.
+image:evs-protect-fsxn-025.png[Figure representing the dialog for the above step]
++
+image:evs-protect-fsxn-026.png[Figure representing the dialog for the above step]
+
+. Browse to the VMDK in the Guest File Restore session, select the required files or folders, and restore them to the specified location. 

@@ -68,10 +68,8 @@ indexpage:
 #
     - title: "TCO calculators"
       links:
-        - title: "VSAN vs ONTAP TCO calculator"
-          url: https://tco.solutions.netapp.com/
-        - title: "FSx ONTAP + VMC TCO calculator"
-          url: https://tco.solutions.netapp.com/vmcfsxntco/
+        - title: "FSx ONTAP + EVS TCO calculator"
+          url: https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html#explore-savings-for-evs-environments
         - title: "ANF + AVS TCO calculator"
           url: https://tco.solutions.netapp.com/anfavstco/
         - title: "GCVE + NetApp Volumes TCO estimator"
