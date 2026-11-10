@@ -31,9 +31,9 @@ The setup process can be broken down into the following steps:
 .Install FSx ONTAP
 
 * Install FSx ONTAP on the VPCs from NetApp Console. 
-Refer link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html[here] for NetApp Console account creation and to get started. 
+Refer link:https://docs.netapp.com/us-en/console-setup-admin/index.html[here] for NetApp Console account creation and to get started. 
 Refer link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/index.html[here] for installing FSx ONTAP.
-Refer link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html[here] for creating a connector in AWS to manage the FSx ONTAP. 
+Refer link:https://docs.netapp.com/us-en/console-setup-admin/index.html[here] for creating a connector in AWS to manage the FSx ONTAP. 
 
 * Deploy FSx ONTAP using AWS.
 Refer link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/getting-started-step1.html[here] for deployment using AWS console.

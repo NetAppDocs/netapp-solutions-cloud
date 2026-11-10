@@ -107,7 +107,7 @@ pullSecret:
 .Deploy Cloud Volumes ONTAP in Azure using NetApp Console. 
 [%collapsible%open]
 ====
-* Install a NetApp Console agent in Azure. Refer to instructions https://docs.netapp.com/us-en/console-setup-admin/concept-install-options-azure.html[here]. 
+* Install a NetApp Console agent in Azure. Refer to instructions https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-azure-console.html[here]. 
 
 * Deploy a CVO instance in Azure using the agent. Refer to instructions link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-azure.html[here].
 

@@ -284,10 +284,10 @@ You must be able to perform the following tasks:
 =====
 You must be able to deploy resources with NetApp Console. To verify that you can, complete the following tasks:
 
-* https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html#how-netapp-console-works[Understand how NetApp Console works].
+* https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html[Understand how NetApp Console works].
 * https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html[Log into NetApp Console^].
-* https://docs.netapp.com/us-en/console-setup-admin/concept-agents.html#what-you-can-do-without-a-console-agent[Understand what you can do without a Console agent].
-* https://docs.netapp.com/us-en/console-setup-admin/concept-install-options-aws.html[Deploy NetApp Console agent on AWS^].
+* https://docs.netapp.com/us-en/console-setup-admin/concept-agents.html#when-you-need-a-console-agent[Understand when you need a Console agent].
+* https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-aws-console.html[Deploy NetApp Console agent on AWS^].
 
 .Amazon FSx ONTAP
 [%collapsible%open]
