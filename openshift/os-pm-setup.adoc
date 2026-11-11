@@ -13,7 +13,7 @@ summary:
 :imagesdir: ../media/
 
 [.lead]
-This section describes a high-level workflow of setting up the Managed Red Hat OpenShift clusters on AWS(ROSA). It shows the use of managed Amazon FSx for NetApp ONTAP (FSx ONTAP) as the storage backend by Trident to provide persistent volumes. Details are provided about the deployment of FSx ONTAP on AWS using BlueXP. Also, details are provided about the use of BlueXP and OpenShift GitOps (Argo CD) to perform data protection and migration activities for the stateful applications on ROSA clusters.
+This section describes a high-level workflow of setting up the Managed Red Hat OpenShift clusters on AWS(ROSA). It shows the use of managed Amazon FSx for NetApp ONTAP (FSx ONTAP) as the storage backend by Trident to provide persistent volumes. Details are provided about the deployment of FSx ONTAP on AWS using NetApp Console. Also, details are provided about the use of NetApp Console and OpenShift GitOps (Argo CD) to perform data protection and migration activities for the stateful applications on ROSA clusters.
 
 Here is a diagram that depicts the ROSA clusters deployed on AWS and using FSx ONTAP as the backend storage.
 
@@ -30,10 +30,10 @@ The setup process can be broken down into the following steps:
 
 .Install FSx ONTAP
 
-* Install FSx ONTAP on the VPCs from BlueXP. 
-Refer link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html[here] for BlueXP account creation and to get started. 
+* Install FSx ONTAP on the VPCs from NetApp Console. 
+Refer link:https://docs.netapp.com/us-en/console-setup-admin/index.html[here] for NetApp Console account creation and to get started. 
 Refer link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/index.html[here] for installing FSx ONTAP.
-Refer link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html[here] for creating a connector in AWS to manage the FSx ONTAP. 
+Refer link:https://docs.netapp.com/us-en/console-setup-admin/index.html[here] for creating a connector in AWS to manage the FSx ONTAP. 
 
 * Deploy FSx ONTAP using AWS.
 Refer link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/getting-started-step1.html[here] for deployment using AWS console.

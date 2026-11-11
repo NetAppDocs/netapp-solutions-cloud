@@ -35,9 +35,9 @@ As more and more customers begin adopting containers within their enterprises, N
 
 image:rhhc-ontap-features.png["Figure showing input/output dialog or representing written content"]
 
-**NetApp BlueXP** enables you to manage all of your storage and data assets from a single control plane/interface.
+**NetApp Console** enables you to manage all of your storage and data assets from a single control plane/interface.
 
-You can use BlueXP to create and administer cloud storage (for example, Cloud Volumes ONTAP and Azure NetApp Files), to move, protect, and analyze data, and to control many on-prem and edge storage devices.
+You can use NetApp Console to create and administer cloud storage (for example, Cloud Volumes ONTAP and Azure NetApp Files), to move, protect, and analyze data, and to control many on-prem and edge storage devices.
 
 **NetApp Trident** is a CSI Compliant Storage Orchestrator that enable quick and easy consumption of persistent storage backed by a variety of the above-mentioned NetApp storage options. It is an open-source software maintained and supported by NetApp.
 
