@@ -132,7 +132,7 @@ image:azure-cvo-guest-004.png["Figure showing input/output dialog or representin
 +
 image:azure-cvo-guest-005.png["Figure showing input/output dialog or representing written content"]
 
-. Select the add-on services for Cloud Volumes ONTAP deployment, including BlueXP Classification, BlueXP backup and recovery, and Cloud Insights. Select the services and then click Continue.
+. Select the add-on services for Cloud Volumes ONTAP deployment, including NetApp Data Classification, NetApp Backup and Recovery, and Data Infrastructure Insights. Select the services and then click Continue.
 +
 image:azure-cvo-guest-006.png["Figure showing input/output dialog or representing written content"]
 
