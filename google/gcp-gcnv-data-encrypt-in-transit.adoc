@@ -52,7 +52,7 @@ The current strongest available encryption type for Kerberos is AES-256-CTS-HMAC
 
 Kerberos provides three different security levels for NFS mounts that offer choices for how strong the Kerberos security should be.
 
-As per RedHat's https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/storage_administration_guide/s1-nfs-client-config-options[Common Mount Options^] documentation:
+As per RedHat's https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/storage_administration_guide/s1-nfs-client-config-options[Common Mount Options^] documentation:
 
 ....
 sec=krb5 uses Kerberos V5 instead of local UNIX UIDs and GIDs to authenticate users.
