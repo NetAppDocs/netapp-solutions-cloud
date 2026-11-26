@@ -162,7 +162,7 @@ video::0d03e040-634f-4086-8cb5-b01200fb8515[panopto, title="Connect a FSx ONTAP 
 
 iSCSI traffic for FSx traverses the VMware Transit Connect/AWS Transit Gateway via the routes provided in the previous section. To configure a LUN in Amazon FSx ONTAP, follow the documentation found link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/supported-fsx-clients.html[here].
 
-On Linux clients, make sure that the iSCSI daemon is running. After the LUNs are provisioned, refer to the detailed guidance on iSCSI configuration with Ubuntu (as an example) link:https://ubuntu.com/server/docs/service-iscsi[here].
+On Linux clients, make sure that the iSCSI daemon is running. After the LUNs are provisioned, refer to the detailed guidance on iSCSI configuration with Ubuntu (as an example) link:https://ubuntu.com/server/docs/how-to/storage/iscsi-initiator-or-client/[here^].
 
 In this paper, connecting the iSCSI LUN to a Windows host is depicted:
 =====
@@ -403,7 +403,7 @@ When a new LUN is first accessed by the Windows host, it has no partition or fil
 
 image:aws-cvo-guest-034.png["Figure showing input/output dialog or representing written content"]
 
-On the Linux clients, ensure the iSCSI daemon is running. After the LUNs are provisioned, refer to the detailed guidance on iSCSI configuration for your Linux distribution.  For example, Ubuntu iSCSI configuration can be found link:https://ubuntu.com/server/docs/service-iscsi[here]. To verify, run lsblk cmd from the shell.
+On the Linux clients, ensure the iSCSI daemon is running. After the LUNs are provisioned, refer to the detailed guidance on iSCSI configuration for your Linux distribution.  For example, Ubuntu iSCSI configuration can be found link:https://ubuntu.com/server/docs/how-to/storage/iscsi-initiator-or-client/[here^]. To verify, run lsblk cmd from the shell.
 =====
 
 .Mount Cloud Volumes ONTAP NFS volume on Linux client
